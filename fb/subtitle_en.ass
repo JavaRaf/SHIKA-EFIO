@@ -7,7 +7,7 @@ Collisions: Normal
 PlayResX: 640
 PlayResY: 360
 Timer: 0.0000
-WrapStyle: 2
+WrapStyle: 0
 
 [V4+ Styles]
 Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
@@ -24,469 +24,503 @@ Style: Signs,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,1
 Style: Signs_Bubbles,Arial,20,&H00313234,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0030,0010,0
 Style: Signs_BText,Arial,14,&H00131310,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,0030,0030,0010,0
 Style: Signs_Boxed,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,0,0,8,0030,0030,0010,0
+Style: Signs_Chat,Arial,16,&H00F0F0F0,&H000000FF,&H00171914,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0030,0030,0010,0
 
 [Events]
 Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
-Dialogue: 0,0:00:00.52,0:00:05.54,Signs_BText,Sign,0000,0000,0000,,{\fad(503,493)\pos(320,282)}This is a work of fiction. The names of the people, places, and organizations\Nare fictitious and in no way related to any real person or entity.
-Dialogue: 0,0:00:00.65,0:00:06.79,Narration,Narrator,0000,0000,0000,,{\an8}We would like to humbly thank all the \Nloyal viewers of {\i0}My Deer Friend Nokotan{\i1}.
-Dialogue: 0,0:00:06.79,0:00:09.98,Narration,Narrator,0000,0000,0000,,As we fearfully await the day we receive \Nobjections from a deer conservation group,
-Dialogue: 0,0:00:09.98,0:00:13.54,Narration,Narrator,0000,0000,0000,,our show has officially \Nreached the halfway mark.
-Dialogue: 0,0:00:13.54,0:00:17.61,Narration,Narrator,0000,0000,0000,,So this time, on top of our usual episode,
-Dialogue: 0,0:00:17.61,0:00:21.35,Narration,Narrator,0000,0000,0000,,we are proud to present to you a \Ncollection of eighteen mini episodes.
-Dialogue: 0,0:00:21.35,0:00:24.96,Narration,Narrator,0000,0000,0000,,Isn't it great getting eighteen \Nfor the price of one?
-Dialogue: 0,0:00:25.25,0:00:27.00,Default,Nokotan,0000,0000,0000,,Starting notsu!
-Dialogue: 0,0:01:57.01,0:02:02.01,Signs,Sign,0000,0000,0000,,{\fs36\bord1\fnArial Black\c&HA3663C&\3c&HDEA880&\pos(318.5,118.5)}The Summer Deer Festival
-Dialogue: 0,0:02:02.01,0:02:05.02,Signs,Sign,0000,0000,0000,,{\fs18\bord2\fnArial Black\c&H32282D&\3c&H3B77BB&\pos(424.5,68.5)}Deer Club\N{\fs10}Seeking New Club Members
-Dialogue: 0,0:02:02.01,0:02:05.02,Signs_BText,Sign,0000,0000,0000,,{\fad(529,1)\fs20\pos(444,277)\bord1}I Seriously Don't Get the Trick
-Dialogue: 0,0:02:05.02,0:02:06.68,Signs,Sign,0000,0000,0000,,{\fs20\fad(1,179)\bord2\fnArial Black\c&H000000&\3c&HE1E3E6&\pos(284.5,252.5)}Bessatsu {\c&HBCD25C&}Friend
-Dialogue: 0,0:02:05.38,0:02:06.73,Default,Nokotan,0000,0000,0000,,Koshitan, Koshitan!
-Dialogue: 0,0:02:06.73,0:02:07.27,Default,Koshitan,0000,0000,0000,,Hm?
-Dialogue: 0,0:02:07.27,0:02:10.02,Default,Nokotan,0000,0000,0000,,I'm about to show you my psychic powers, \Nso watch carefully.
-Dialogue: 0,0:02:10.43,0:02:11.52,Default,Koshitan,0000,0000,0000,,'Kay.
-Dialogue: 0,0:02:11.52,0:02:12.84,Signs,Sign,0000,0000,0000,,{\an9\fnTimes New Roman\fs16\c&H250A86&\3c&H58B4DE&\bord2\pos(625,96)}D{\3c&HF9FBFF&}e{\3c&H58B4DE&}e{\3c&HF9FBFF&}r {\3c&H58B4DE&}C{\3c&HF9FBFF&}r{\3c&H58B4DE&}a{\3c&HF9FBFF&}c{\3c&H58B4DE&}k{\3c&HF9FBFF&}e{\3c&H58B4DE&}r{\3c&HF9FBFF&}s
-Dialogue: 0,0:02:21.11,0:02:23.91,Default,Koshitan,0000,0000,0000,,It started shining? \NWait, does she actually...
-Dialogue: 0,0:02:25.18,0:02:26.18,Signs,Sign,0000,0000,0000,,{\fs36\fad(256,285)\bord1.5\fnArial Black\c&HB1A2E9&\3c&H9378AA&\fsp2}Flop
-Dialogue: 0,0:02:26.18,0:02:27.63,Default,Koshitan,0000,0000,0000,,Not the spoon but yourself?
-Dialogue: 0,0:02:28.46,0:02:30.92,Signs_BText,Sign,0000,0000,0000,,{\an9\fad(529,1)\fs20\bord1\pos(598,280)}You're Probably Gonna Stand Out for Various Reasons
-Dialogue: 0,0:02:32.15,0:02:34.30,Default,Koshitan,0000,0000,0000,,Man, I could sure use some coffee right now.
-Dialogue: 0,0:02:34.30,0:02:35.15,Default,Nokotan,0000,0000,0000,,Want some?
-Dialogue: 0,0:02:35.15,0:02:36.07,Default,Koshitan,0000,0000,0000,,You actually have some?
-Dialogue: 0,0:02:36.78,0:02:37.28,Signs,Sign,0000,0000,0000,,{\fs36\fad(1,285)\bord1.5\fnArial Black\c&H635BE0&\3c&H5F56BE&\fsp2}Open
-Dialogue: 0,0:02:46.01,0:02:47.21,Default,Koshitan,0000,0000,0000,,Actually, I'm good.
-Dialogue: 0,0:02:48.41,0:02:50.77,Signs_BText,Sign,0000,0000,0000,,{\an9\fad(529,1)\fs20\bord1\pos(600,280)}Better Than Selling Off Some Organs
-Dialogue: 0,0:02:48.41,0:02:50.77,DefaultTop,Nokotan,0000,0000,0000,,Om, nom, nom...
-Dialogue: 0,0:02:50.77,0:02:52.80,Default,Koshitan,0000,0000,0000,,The cost of the deer crackers...
-Dialogue: 0,0:02:52.80,0:02:56.42,Default,Koshitan,0000,0000,0000,,Room repair expenses for all the destruction \NShikanoko and Anko caused...
-Dialogue: 0,0:02:56.42,0:02:59.03,Default,Koshitan,0000,0000,0000,,The cost of the King of \NKoshi Torako Competition...
-Dialogue: 0,0:02:59.03,0:03:01.66,Default,Koshitan,0000,0000,0000,,We don't have enough money!
-Dialogue: 0,0:03:01.98,0:03:06.57,Default,Koshitan,0000,0000,0000,,Also, the Deer Club has to foot the entire bill \Nfor that competition? Damn it!
-Dialogue: 0,0:03:07.12,0:03:07.79,Default,Nokotan,0000,0000,0000,,Koshitan.
-Dialogue: 0,0:03:10.82,0:03:12.77,Default,Nokotan,0000,0000,0000,,Wanna sell these on Mercari?
-Dialogue: 0,0:03:19.26,0:03:20.38,Signs,Sign,0000,0000,0000,,{\fad(1,222)\c&H252826&\frz-37.7\pos(503,100)}Recommended   Shop          Pick
-Dialogue: 0,0:03:19.26,0:03:20.38,Signs,Sign,0000,0000,0000,,{\fad(1,222)\c&H252826&\frz320.4\pos(141,261.5)}Deer Antler
-Dialogue: 0,0:03:22.38,0:03:24.60,Signs,Sign,0000,0000,0000,,{\fad(239,105)\c&H252826&\pos(430.5,37.5)\frz335.9}List
-Dialogue: 0,0:03:24.47,0:03:26.26,Signs,Sign,0000,0000,0000,,{\bord2\fad(276,1)\c&H1E1513&\3c&HF5F7F7&\pos(320,40)}Genjima-san has purchased the item\N"Deer Antler *Like New*." Please send\Nthe item after confirming their details.
-Dialogue: 0,0:03:26.50,0:03:27.45,Default,Koshitan,0000,0000,0000,,We sold one!
-Dialogue: 0,0:03:27.45,0:03:28.85,Narration,Narrator,0000,0000,0000,,Club funds secured!
-Dialogue: 0,0:03:29.75,0:03:32.75,Signs_BText,Sign,0000,0000,0000,,{\an9\fad(529,538)\fs20\bord1\pos(600,280)}She's Not Killing Anyone with Those Winks
-Dialogue: 0,0:03:30.63,0:03:31.36,DefaultTop,Nokotan,0000,0000,0000,,Notsu.
-Dialogue: 0,0:03:33.23,0:03:34.00,Default,Nokotan,0000,0000,0000,,Notsu.
-Dialogue: 0,0:03:35.05,0:03:36.27,Default,Koshitan,0000,0000,0000,,How does all that actually work?
-Dialogue: 0,0:03:37.00,0:03:39.74,Signs,Sign,0000,0000,0000,,{\fad(175,1)\fs15\bord2\fnArial Black\c&H32282D&\3c&H3B77BB&\pos(427.5,72)}Deer Club\N{\fs10}Seeking New Club Members
-Dialogue: 0,0:03:37.46,0:03:39.74,Signs_BText,Sign,0000,0000,0000,,{\fad(529,1)\fs22\bord1\pos(446,277)}This Is Definitely Messed Up
-Dialogue: 0,0:03:39.74,0:03:41.24,Signs,Sign,0000,0000,0000,,{\alpha&H33&\an7\bord0\blur0.2\p1\c&HF8FCF9&\pos(212.5,6)\fscx412\fscy190}m 0 0 l 100 0 100 100 0 100
-Dialogue: 1,0:03:39.74,0:03:41.24,Signs,Sign,0000,0000,0000,,{\an7\fs26\c&HE28551&\pos(223.5,12)}G{\c&H4B4CD5&}u{\c&H60BA4D&}u{\c&HE28551&}g{\c&H4B4CD5&}l{\c&HE28551&}e {\c&H181B19&}News\N{\c&HFFFFFF&\3c&HE13E33&\bord3\fs14}Top | Live | Ranking | Entertainment | Sports | Gourmet | Politics\N{\c&H020402&\bord0\fs20}Cat-Eared Idols Are All the Rage!!\N{\fs14}Shishidoko Neko from nekomarionette-paties, the idol group\Ngaining fame on social media as "the underground idols who\Nlook too good with cat ears," uploaded a video onto her personal\NMytube channel on the 10th. The video happened to be of her\Ndoing an official "Let's Dance" video of part of the choreography\Nfor their new song that goes on sale next month.\NFans were so blown away by this video that they flooded\Nthe internet with comments. This surprise...
-Dialogue: 0,0:03:42.61,0:03:43.49,Signs,Sign,0000,0000,0000,,{\fad(1,101)\bord2\c&H0B0F0C&\fs10\3c&HF8FCF9&\frz10.33\fax0.18\pos(137,69)}We asked everyone in Japan!
-Dialogue: 0,0:03:42.61,0:03:43.49,Signs,Sign,0000,0000,0000,,{\fad(1,101)\c&H8F7FE9&\fax0.22\pos(319,155)}Favorite Animal Ranking
-Dialogue: 0,0:03:42.61,0:03:43.49,Signs,Sign,0000,0000,0000,,{\fad(1,101)\c&H0D100E&\fax0.22\pos(280.5,233)}1st         Cat
-Dialogue: 0,0:03:42.61,0:03:43.49,Signs,Sign,0000,0000,0000,,{\fad(1,101)\bord2\fs18\c&H0D100E&\fax0.22\3c&HF8FCF9&\pos(286.5,303.5)}2nd         Dog
-Dialogue: 0,0:03:42.61,0:03:43.49,Signs,Sign,0000,0000,0000,,{\fad(1,101)\bord2\fs18\c&H0D100E&\fax0.22\3c&HF8FCF9&\pos(298,339.5)}3rd         Bear
-Dialogue: 0,0:03:43.53,0:03:44.87,Signs,Sign,0000,0000,0000,,{\fad(380,1)\bord2\fs18\c&H0D100E&\fax0.22\3c&HF8FCF9&\pos(238.5,4)}4th         Horse
-Dialogue: 0,0:03:43.53,0:03:44.87,Signs,Sign,0000,0000,0000,,{\fad(380,1)\bord2\fs18\c&H0D100E&\fax0.22\3c&HF8FCF9&\pos(260,42)}5th         Sparrow
-Dialogue: 0,0:03:43.53,0:03:44.87,Signs,Sign,0000,0000,0000,,{\fad(260,1)\bord2\fs18\c&H0D100E&\fax0.22\3c&HF8FCF9&\pos(202.5,155)}Out of Ranking       Deer
-Dialogue: 0,0:03:43.53,0:03:44.87,Signs_Boxed,Sign,0000,0000,0000,,{\fad(260,1)\bord2\fs14\c&H0D100E&\fax0.22\3c&HEDDD9D&\pos(208.5,282)}Comments & General Consensus
-Dialogue: 0,0:03:43.53,0:03:44.87,Signs,Sign,0000,0000,0000,,{\fad(260,1)\bord2\fs12\c&H0D100E&\fax0.22\3c&HF8FCF9&\pos(309,330.5)}According to our survey, cats took the number-one spot.
-Dialogue: 0,0:03:46.24,0:03:47.74,Signs,Sign,0000,0000,0000,,{\an7\fs12\c&H010101&\pos(28.5,49)}Top News > {\c&H8E78CD&}Sports
-Dialogue: 0,0:03:46.24,0:03:47.74,Signs,Sign,0000,0000,0000,,{\an7\fnArial Black\c&H000200&\pos(38.5,89)}The World Cat Cup Begins!
-Dialogue: 1,0:03:46.24,0:03:47.74,Signs,Sign,0000,0000,0000,,{\fs16\an7\c&H000200&\fscx90\pos(336.5,78)}Japanese Cats Come Out on Top!\NMade it Through the Group Leagues!
-Dialogue: 1,0:03:46.24,0:03:47.74,Signs,Sign,0000,0000,0000,,{\fs14\an7\c&H000200&\fscx90\pos(340.5,122)}The World Cat Cup opened last week.\NThe Japanese cats had their work cut out\Nfor them with one win and one loss.\NThis morning, they went up against the\NSpanish cats to see who would move\Nonto the finals league. The Spanish cats\Nare a powerhouse team—one of the top\Nteams in Europe. They definitely didn't\Npull any punches against their Japanese\Nopponents. A fierce battle continued as\Nneither side would let up, but then the\NJapanese cats went for a risky move.\NThe competition was close, but the\N"Calico's 1mm," which was trending on\Nsocial media, is what turned the tables,\Nbringing them victory...
-Dialogue: 0,0:03:46.24,0:03:49.41,Signs,Sign,0000,0000,0000,,{\fad(1,140)\fnTimes New Roman\c&H010101&\fs20\pos(116,9)}Shimbun
-Dialogue: 0,0:03:46.24,0:03:49.41,Signs,Sign,0000,0000,0000,,{\fad(1,140)\alpha&H22&\an7\bord0\blur0.2\p1\pos(333.5,72.5)\fscx230\fscy282}m 0 0 l 100 0 100 100 0 100
-Dialogue: 0,0:03:47.74,0:03:49.41,Signs,Sign,0000,0000,0000,,{\fad(1,140)\an7\fs12\c&H010101&\pos(28.5,49)}Top News > {\c&H8E78CD&}Politics
-Dialogue: 0,0:03:47.74,0:03:49.41,Signs,Sign,0000,0000,0000,,{\fad(1,140)\an7\fnArial Black\c&H000200&\fscx68\pos(14,89.5)}The Truth Behind the Cat Party's Seizure of Power
-Dialogue: 1,0:03:47.74,0:03:49.41,Signs,Sign,0000,0000,0000,,{\fad(1,140)\fs18\an7\c&H000200&\fscx90\pos(336.5,98.5)}The Deer Party Self-Destructs?!\NThe Truth Behind the Regime\N Change
-Dialogue: 1,0:03:47.74,0:03:49.41,Signs,Sign,0000,0000,0000,,{\fad(1,140)\fs14\an7\c&H000200&\fscx90\pos(336.5,163)}Support for the Deer Party has continued\Nto decline due to the faction-related slush\Nfund scandal that has been going on since\Nlast year. Political distrust has grown as\Nthe number of independents who do not\Nsupport any political party swells.\NMeanwhile, the Cat Party has steadily\Nbuilt up the public's trust through\Neconomic recovery measures and other\Nefforts. The gap between the two parties'\Nsupport rates has become decisive.
-Dialogue: 1,0:03:47.76,0:03:49.41,Signs,Sign,0000,0000,0000,,{\fad(1,140)\fs14\an7\c&H000200&\fscx70\pos(13.5,318)}We asked for political scientist Toranoi-san's analysis of this regime change.
-Dialogue: 0,0:03:50.54,0:03:51.62,Signs_Boxed,Sign,0000,0000,0000,,{\fad(232,1)\fs20\bord2\fnArial Black\an7\c&H07100B&\3c&HCCFFA6&\pos(21.5,89)}"Monthly Deer" Publication Suspended
-Dialogue: 0,0:03:53.50,0:03:56.00,Default,Nokotan,0000,0000,0000,,Wasn't it finally time for deer to shine?!
-Dialogue: 0,0:03:56.38,0:03:58.10,Narration,Narrator,0000,0000,0000,,Better luck in your next life.
-Dialogue: 0,0:03:59.27,0:04:02.03,Signs_BText,Sign,0000,0000,0000,,{\an9\fad(529,539)\fs20\bord1\pos(598,56.5)}I Think Just My Antlers Might Grow Every Night
-Dialogue: 0,0:04:01.98,0:04:05.64,Default,Nokotan,0000,0000,0000,,I totally think the Deer Club should \Nstart selling body pillow covers.
-Dialogue: 0,0:04:05.64,0:04:07.14,Default,Koshitan,0000,0000,0000,,Where'd that come from?
-Dialogue: 0,0:04:07.64,0:04:08.16,Default,Nokotan,0000,0000,0000,,Hup!
-Dialogue: 0,0:04:08.43,0:04:10.68,Default,Nokotan,0000,0000,0000,,I even made a sample!
-Dialogue: 0,0:04:10.68,0:04:12.59,Default,Koshitan,0000,0000,0000,,Did you just will that into existence?
-Dialogue: 0,0:04:12.59,0:04:14.02,Default,Koshitan,0000,0000,0000,,Also, it has antlers...
-Dialogue: 0,0:04:14.02,0:04:15.77,Default,Nokotan,0000,0000,0000,,Try it out, Koshitan!
-Dialogue: 0,0:04:17.77,0:04:19.02,Default,Nokotan,0000,0000,0000,,Well? Well?!
-Dialogue: 0,0:04:19.02,0:04:20.91,DefaultItalics,Koshitan,0000,0000,0000,,Damn antler's in the way.
-Dialogue: 0,0:04:21.84,0:04:24.78,Signs_BText,Sign,0000,0000,0000,,{\an9\fad(529,1)\fs20\bord1\pos(599,280)}I Sure Hope You Make This into Merch
-Dialogue: 0,0:04:22.19,0:04:24.78,DefaultTop,Nokotan,0000,0000,0000,,Then how about some Deer Club T-shirts?
-Dialogue: 0,0:04:25.79,0:04:27.78,Default,Koshitan,0000,0000,0000,,I guess we could do that much.
-Dialogue: 0,0:04:29.29,0:04:33.12,Signs,Sign,0000,0000,0000,,{\fs30\fnComic Sans MS\c&H171B19&\frz7.153\pos(308,91.5)}Deer Club
-Dialogue: 0,0:04:29.29,0:04:33.12,Signs,Sign,0000,0000,0000,,{\fs26\fnComic Sans MS\c&H171B19&\frz7.153\pos(332.5,218.5)}Notsu.
-Dialogue: 0,0:04:30.05,0:04:30.91,Default,Nokotan,0000,0000,0000,,All done!
-Dialogue: 0,0:04:30.91,0:04:33.12,Default,Koshitan,0000,0000,0000,,You just formed it out of the ether again.
-Dialogue: 0,0:04:33.12,0:04:34.87,Default,Nokotan,0000,0000,0000,,I'm gonna wear it right now!
-Dialogue: 0,0:04:34.87,0:04:37.31,Signs,Sign,0000,0000,0000,,{\fs14\fnComic Sans MS\c&H171B19&\frz10.25\pos(427,188.5)}Deer Club
-Dialogue: 0,0:04:34.87,0:04:37.31,Signs,Sign,0000,0000,0000,,{\fs14\fnComic Sans MS\c&H171B19&\frz10.25\pos(445.5,236.5)}Notsu.
-Dialogue: 0,0:04:38.02,0:04:40.88,Signs_BText,Sign,0000,0000,0000,,{\an7\fad(529,1)\fs20\bord1\pos(48.5,57.5)}It Shines in Seven Colors
-Dialogue: 0,0:04:41.26,0:04:45.60,Default,Nokotan,0000,0000,0000,,Did you drop this golden antler \Nor this silver antler?
-Dialogue: 0,0:04:45.60,0:04:46.64,Default,Koshitan,0000,0000,0000,,You whut?
-Dialogue: 0,0:04:46.87,0:04:50.51,Default,Nokotan,0000,0000,0000,,Did you drop this golden antler \Nor this silver antler?
-Dialogue: 0,0:04:50.51,0:04:53.77,Default,Koshitan,0000,0000,0000,,You're just going to keep asking \Nuntil I answer, aren't you?
-Dialogue: 0,0:04:55.00,0:04:57.23,Default,Koshitan,0000,0000,0000,,I actually didn't drop either of them.
-Dialogue: 0,0:04:57.57,0:05:01.21,Default,Nokotan,0000,0000,0000,,Since you're so honest, I shall \Ngive you this gaming antler!
-Dialogue: 0,0:05:01.21,0:05:02.92,Default,Koshitan,0000,0000,0000,,Gaming antler?
-Dialogue: 0,0:05:02.92,0:05:03.95,Default,Koshitan,0000,0000,0000,,Uh!
-Dialogue: 0,0:05:03.95,0:05:08.49,Default,Koshitan,0000,0000,0000,,Oh, god! My eyes! My eyes!
-Dialogue: 0,0:05:09.47,0:05:12.51,Signs_BText,Sign,0000,0000,0000,,{\an7\fad(529,490)\fs20\bord1\pos(40,280)}No Boba for You
-Dialogue: 0,0:05:23.20,0:05:24.84,Default,Koshitan,0000,0000,0000,,Wait a minute. This isn't a straw!
-Dialogue: 0,0:05:24.84,0:05:26.72,Default,Koshitan,0000,0000,0000,,It's an antler!
-Dialogue: 0,0:05:27.85,0:05:28.97,DefaultItalics,Nokotan,0000,0000,0000,,Just as antler.
-Dialogue: 0,0:05:29.99,0:05:34.22,Signs_BText,Sign,0000,0000,0000,,{\an9\fad(529,1)\fs20\bord1\pos(599,277)}Hand-Me-Downs
-Dialogue: 0,0:05:31.21,0:05:34.22,Default,Koshitan,0000,0000,0000,,Look at you, all high-school-girl-like.
-Dialogue: 0,0:05:35.72,0:05:37.77,Default,Koshitan,0000,0000,0000,,You looked great in your \Nmiddle school uniform,
-Dialogue: 0,0:05:37.77,0:05:39.56,Default,Koshitan,0000,0000,0000,,but you rock the sailor uniform, too.
-Dialogue: 0,0:05:39.56,0:05:42.61,Default,Anko,0000,0000,0000,,Squee! We match, Onee-chan!
-Dialogue: 0,0:05:42.61,0:05:45.50,Default,Koshitan,0000,0000,0000,,I mean... that applies to everyone \Nelse at our school, too...
-Dialogue: 0,0:05:46.57,0:05:48.99,Default,Koshitan,0000,0000,0000,,It does seem a bit big on you, though.
-Dialogue: 0,0:05:48.99,0:05:51.49,Default,Koshitan,0000,0000,0000,,You didn't want a more fitting size?
-Dialogue: 0,0:05:51.49,0:05:54.75,Default,Anko,0000,0000,0000,,Well, this is your hand-me-down.
-Dialogue: 0,0:05:54.75,0:05:57.04,Default,Koshitan,0000,0000,0000,,Oh, I see...
-Dialogue: 0,0:06:00.65,0:06:03.13,Signs_BText,Sign,0000,0000,0000,,{\fad(529,1)\fs22\bord1\pos(544,277)}Ta-hay-sty
-Dialogue: 0,0:06:03.13,0:06:06.28,Signs,Sign,0000,0000,0000,,{\fs36\bord4\fnArial Black\c&HFFFEFE&\3c&HFFFEFE&}Ta-hay-sty
-Dialogue: 1,0:06:03.13,0:06:06.28,Signs,Sign,0000,0000,0000,,{\fs36\bord2\fnArial Black\c&H7CFFF2&\3c&H10C742&}Ta-hay-sty
-Dialogue: 0,0:06:13.93,0:06:14.77,Default,Bashame,0000,0000,0000,,Ta-hay-sty.
-Dialogue: 0,0:06:13.93,0:06:16.77,Signs,Sign,0000,0000,0000,,{\fad(1,186)\an7\fs36\bord4\fnArial Black\c&HFFFEFE&\3c&HFFFEFE&}Ta-hay-sty
-Dialogue: 1,0:06:13.93,0:06:16.77,Signs,Sign,0000,0000,0000,,{\fad(1,186)\an7\fs36\bord2\fnArial Black\c&H7CFFF2&\3c&H10C742&}Ta-hay-sty
-Dialogue: 0,0:06:13.93,0:06:16.77,Signs,Sign,0000,0000,0000,,{\fad(1,186)\an9\fs36\bord4\fnArial Black\c&HFFFEFE&\3c&HFFFEFE&}Deerlicious
-Dialogue: 1,0:06:13.93,0:06:16.77,Signs,Sign,0000,0000,0000,,{\fad(1,186)\an9\fs36\bord2\fnArial Black\c&H87F0F6&\3c&H0C7FDE&}Deerlicious
-Dialogue: 0,0:06:14.77,0:06:15.29,Default,Nokotan,0000,0000,0000,,Deerlicious.
-Dialogue: 0,0:06:15.29,0:06:15.78,Default,Bashame,0000,0000,0000,,Ta-hay-sty.
-Dialogue: 0,0:06:15.78,0:06:16.30,Default,Nokotan,0000,0000,0000,,Deerlicious.
-Dialogue: 0,0:06:16.30,0:06:16.79,Default,Bashame,0000,0000,0000,,Ta-hay-sty.
-Dialogue: 0,0:06:16.79,0:06:17.61,Default,Nokotan,0000,0000,0000,,Deerlicious.
-Dialogue: 0,0:06:17.16,0:06:19.90,Signs,Sign,0000,0000,0000,,{\fad(342,605)\bord3\fs30\fnArial Black\c&HC6606F&\pos(475,177)\3c&H3AE7FA&}No{\c&H4DC913&}tsu {\c&HC6606F&}No{\c&H4DC913&}tsu {\c&H981AE3&}S{\c&H0140E5&}h{\c&H981AE3&}o{\c&H0140E5&}p{\c&H981AE3&}p{\c&H0140E5&}i{\c&H981AE3&}n{\c&H0140E5&}g
-Dialogue: 0,0:06:17.70,0:06:20.67,Signs_BText,Sign,0000,0000,0000,,{\an7\fad(529,374)\fs20\bord1\pos(42.5,56)}Basically Inventory Disposal
-Dialogue: 0,0:06:19.29,0:06:25.07,Default,Nokotan,0000,0000,0000,,Hello, viewers. It's time once \Nagain for {\i1}Notsu Notsu Shopping{\i0}.
-Dialogue: 0,0:06:25.38,0:06:28.38,Default,Nokotan,0000,0000,0000,,And here's our item for today!
-Dialogue: 0,0:06:28.95,0:06:31.07,Signs,Sign,0000,0000,0000,,{\fs30\bord2\fnTimes New Roman\c&H1C13AA&\3c&H9EC6D2&}Koshi
-Dialogue: 0,0:06:29.22,0:06:31.07,Default,Nokotan,0000,0000,0000,,Our antler-shaped name seal case!
-Dialogue: 0,0:06:31.07,0:06:35.33,Default,Anko,0000,0000,0000,,Wow. It's so popular right now. \NI've been dying to get one.
-Dialogue: 0,0:06:35.33,0:06:41.13,Signs,Sign,0000,0000,0000,,{\fs18\c&H262831&\pos(423,285)}yen
-Dialogue: 0,0:06:35.60,0:06:39.19,DefaultTop,Nokotan,0000,0000,0000,,Usually, it's 29,800 yen after tax...
-Dialogue: 0,0:06:39.19,0:06:41.25,DefaultTop,Nokotan,0000,0000,0000,,But just for you viewers today!
-Dialogue: 0,0:06:41.21,0:06:45.71,Signs,Sign,0000,0000,0000,,{\fad(149,1)\fs18\c&H262831&\pos(288.5,285)}yen
-Dialogue: 0,0:06:41.21,0:06:45.71,Signs,Sign,0000,0000,0000,,{\fad(149,1)\fs18\c&H262831&\pos(555,285)}yen
-Dialogue: 0,0:06:41.25,0:06:45.71,DefaultTop,Nokotan,0000,0000,0000,,We've slashed the price by 90%, \Nand it's only 2,980 yen!
-Dialogue: 0,0:06:45.71,0:06:48.97,Default,Anko,0000,0000,0000,,Wow, 2,980 yen? Really?
-Dialogue: 0,0:06:48.97,0:06:51.72,Signs,Sign,0000,0000,0000,,{\bord2.5\c&H1E212D&\3c&HF5F7F7&\pos(320,251)}Free Shipping
-Dialogue: 0,0:06:49.23,0:06:51.72,DefaultTop,Nokotan,0000,0000,0000,,Buy three, and you'll get free shipping!
-Dialogue: 0,0:06:51.99,0:06:53.84,Default,Nokotan,0000,0000,0000,,Act now, and we'll throw \Nin this antler plushie,
-Dialogue: 0,0:06:53.84,0:06:57.24,Default,Nokotan,0000,0000,0000,,this antler beauty essence, \Nand this wood-carved antler!
-Dialogue: 0,0:06:57.24,0:06:58.48,DefaultItalics,Anko,0000,0000,0000,,Wow, what a deal.
-Dialogue: 0,0:07:03.13,0:07:05.75,Default,Neko,0000,0000,0000,,Really? An antler-shaped name seal case?
-Dialogue: 0,0:07:06.21,0:07:09.24,Signs,Sign,0000,0000,0000,,{\fad(382,1)\c&H000000&\fay0.145\pos(316,80.57)}Student Council Office
-Dialogue: 0,0:07:06.80,0:07:09.24,Signs_BText,Sign,0000,0000,0000,,{\fad(529,1)\fs22\bord1\pos(480,277)}Locally, a Huge Hit
-Dialogue: 0,0:07:11.21,0:07:13.33,Default,Tanuki,0000,0000,0000,,You seem really happy, Chiharu.
-Dialogue: 0,0:07:13.33,0:07:14.58,Default,Tanuki,0000,0000,0000,,What's that?
-Dialogue: 0,0:07:14.58,0:07:16.75,Default,Neko,0000,0000,0000,,An antler-shaped name seal case.
-Dialogue: 0,0:07:16.75,0:07:19.62,Default,Tanuki,0000,0000,0000,,An antler-shaped name seal case?! \NThat's wonderful!
-Dialogue: 0,0:07:22.25,0:07:27.96,Default,Tsubame,0000,0000,0000,,I also got an antler plushie, antler beauty \Nessence, and this wood-carved antler.
-Dialogue: 0,0:07:27.96,0:07:31.08,Default,Tanuki,0000,0000,0000,,Wow! That plushie is so cute!
-Dialogue: 0,0:07:33.26,0:07:34.89,Default,Tsubame,0000,0000,0000,,Here, Kinu. You can have one.
-Dialogue: 0,0:07:35.22,0:07:36.78,Default,Tanuki,0000,0000,0000,,Wait, really?!
-Dialogue: 0,0:07:36.78,0:07:39.85,Default,Tanuki,0000,0000,0000,,But I'm such a failure as a childhood friend!
-Dialogue: 0,0:07:40.80,0:07:42.96,Default,Tanuki,0000,0000,0000,,Chiharu!
-Dialogue: 0,0:07:42.96,0:07:43.65,Default,Tsubame,0000,0000,0000,,There, there.
-Dialogue: 0,0:07:43.65,0:07:46.65,Default,Tsubame,0000,0000,0000,,You're always taking care of me, Kinu.
-Dialogue: 0,0:07:49.46,0:07:52.53,Signs_BText,Sign,0000,0000,0000,,{\an9\fad(529,1)\fs20\bord1\pos(600,277)}At This Rate, You Could Get Them to Buy Anything
-Dialogue: 0,0:07:50.37,0:07:52.53,DefaultItalicsTop,Neko,0000,0000,0000,,An antler-shaped name seal case...
-Dialogue: 0,0:07:52.76,0:07:54.91,DefaultItalics,Neko,0000,0000,0000,,Are they actually popular?
-Dialogue: 0,0:07:55.34,0:07:58.43,DefaultItalics,Neko,0000,0000,0000,,Come on. It's not like I'd ever use one.
-Dialogue: 0,0:07:58.43,0:08:00.41,DefaultItalics,Neko,0000,0000,0000,,But it's free shipping...
-Dialogue: 0,0:08:00.41,0:08:02.87,DefaultItalics,Neko,0000,0000,0000,,It's 90% off...
-Dialogue: 0,0:08:02.87,0:08:05.88,DefaultItalics,Neko,0000,0000,0000,,And it comes with a plushie, a wood carving, \Nand beauty essence...
-Dialogue: 0,0:08:05.88,0:08:07.42,DefaultItalics,Neko,0000,0000,0000,,2,980 yen...
-Dialogue: 0,0:08:07.42,0:08:09.46,DefaultItalics,Neko,0000,0000,0000,,It's actually... a good deal?!
-Dialogue: 0,0:08:09.92,0:08:11.28,Narration,Narrator,0000,0000,0000,,Yeah, she bought it.
-Dialogue: 0,0:08:12.82,0:08:16.22,Signs_BText,Sign,0000,0000,0000,,{\an9\fad(529,1)\fs20\bord1\pos(598,56.5)}Powerful Enemy
-Dialogue: 0,0:08:17.73,0:08:20.18,Default,Koshitan,0000,0000,0000,,Oh, hey. A cat. How cute.
-Dialogue: 0,0:08:20.18,0:08:22.39,Default,Nokotan,0000,0000,0000,,But deer are much cuter!
-Dialogue: 0,0:08:22.39,0:08:23.94,Default,Koshitan,0000,0000,0000,,It's not a competition.
-Dialogue: 0,0:08:26.22,0:08:27.97,Default,Koshitan,0000,0000,0000,,Dang, that wind's strong.
-Dialogue: 0,0:08:27.97,0:08:30.09,Default,Bashame,0000,0000,0000,,But Bashame is much stronger!
-Dialogue: 0,0:08:30.09,0:08:32.25,Default,Koshitan,0000,0000,0000,,Seriously, who are you even competing with?
-Dialogue: 0,0:08:33.30,0:08:35.74,Signs_BText,Sign,0000,0000,0000,,{\fad(529,1)\fs22\bord1\pos(503,277)}Koshitan Is Studying
-Dialogue: 0,0:08:37.05,0:08:39.59,Default,Anko,0000,0000,0000,,Onee-chan, I made you some tea.
-Dialogue: 0,0:08:39.59,0:08:41.49,Default,Koshitan,0000,0000,0000,,Oh, thanks.
-Dialogue: 0,0:08:41.49,0:08:43.25,Signs,Sign,0000,0000,0000,,{\fs30\pos(320,110)}5 minutes later
-Dialogue: 0,0:08:43.25,0:08:45.75,Default,Anko,0000,0000,0000,,Onee-chan, I brought you a snack.
-Dialogue: 0,0:08:45.75,0:08:47.50,Default,Koshitan,0000,0000,0000,,Oh, thanks.
-Dialogue: 0,0:08:47.50,0:08:48.75,Signs,Sign,0000,0000,0000,,{\fs30\pos(320,110)}Another 5 minutes later
-Dialogue: 0,0:08:48.75,0:08:51.70,Default,Anko,0000,0000,0000,,Onee-chan, I brought you more tea.
-Dialogue: 0,0:08:52.63,0:08:53.97,Signs,Sign,0000,0000,0000,,{\fs30\pos(320,110)}And another 5 minutes later
-Dialogue: 0,0:08:53.97,0:08:54.86,Default,Anko,0000,0000,0000,,Onee-chan—
-Dialogue: 0,0:08:54.86,0:08:57.15,Default,Koshitan,0000,0000,0000,,Could you leave me alone for a bit?
-Dialogue: 0,0:08:57.59,0:09:00.60,Signs,Sign,0000,0000,0000,,{\fad(155,1)\fs12\bord2\fnArial Black\c&H32282D&\3c&H3B77BB&\pos(427.5,84)}Deer Club\N{\fs8}Seeking New Club Members
-Dialogue: 0,0:08:58.16,0:09:00.60,Signs_BText,Sign,0000,0000,0000,,{\an9\fad(529,1)\fs22\bord1\pos(598,56.5)}Surprisingly Athletic
-Dialogue: 0,0:09:04.89,0:09:06.85,Default,Nokotan,0000,0000,0000,,Newbie! Greet your senpai!
-Dialogue: 0,0:09:07.17,0:09:08.24,Default,Nokotan and Bashame,0000,0000,0000,,Notsu!
-Dialogue: 0,0:09:10.13,0:09:12.36,Signs_BText,Sign,0000,0000,0000,,{\an7\fad(529,1)\fs22\bord1\pos(40,59)}DEER CLUB THE ROCK
-Dialogue: 0,0:09:10.87,0:09:12.36,Default,Nokotan,0000,0000,0000,,Let's start a band!
-Dialogue: 0,0:09:12.36,0:09:14.99,Default,Koshitan,0000,0000,0000,,Did you get inspired by \Nsome late-night anime?
-Dialogue: 0,0:09:15.36,0:09:18.63,Default,Nokotan,0000,0000,0000,,So anyway, I brought us instruments!
-Dialogue: 0,0:09:18.51,0:09:20.01,Signs,Sign,0000,0000,0000,,{\bord2.5\c&H1E212D&\3c&HF5F7F7&\pos(110.5,250.5)}Shakuhachi
-Dialogue: 0,0:09:18.51,0:09:24.50,Signs,Sign,0000,0000,0000,,{\bord2.5\c&H1E212D&\3c&HF5F7F7&\pos(470,60)}Theremin
-Dialogue: 0,0:09:18.51,0:09:24.50,Signs,Sign,0000,0000,0000,,{\bord2.5\c&H1E212D&\3c&HF5F7F7&\pos(562.5,109.5)}Udu drum
-Dialogue: 0,0:09:19.85,0:09:21.59,Default,Koshitan,0000,0000,0000,,The hell is this lineup?
-Dialogue: 0,0:09:21.59,0:09:24.50,Default,Koshitan,0000,0000,0000,,I can't even imagine what kind of \Nmelody they'd produce together.
-Dialogue: 0,0:09:24.50,0:09:26.39,Default,Anko,0000,0000,0000,,Then I'll play the vuvuzela.
-Dialogue: 0,0:09:27.67,0:09:28.67,Default,Nokotan,0000,0000,0000,,You're in!
-Dialogue: 0,0:09:28.67,0:09:31.38,Default,Koshitan,0000,0000,0000,,I'm sorry, what?! \NThat wasn't even in the lineup!
-Dialogue: 0,0:09:31.38,0:09:33.69,Default,Bashame,0000,0000,0000,,Bashame can whistle.
-Dialogue: 0,0:09:35.93,0:09:37.11,Default,Nokotan,0000,0000,0000,,You're in!
-Dialogue: 0,0:09:37.11,0:09:40.22,Default,Koshitan,0000,0000,0000,,Do you really need someone \Nto whistle in a band?!
-Dialogue: 0,0:09:40.22,0:09:41.35,Default,Koshitan,0000,0000,0000,,And she can't even whistle!
-Dialogue: 0,0:09:41.35,0:09:43.19,Default,Nokotan,0000,0000,0000,,And I'll be the vocalist.
-Dialogue: 0,0:09:43.19,0:09:44.14,Default,Koshitan,0000,0000,0000,,No fair!
-Dialogue: 0,0:09:44.14,0:09:49.00,Narration,Narrator,0000,0000,0000,,Koshitan... on udu drum, \Ntheremin, and shakuhachi.
-Dialogue: 0,0:09:49.52,0:09:53.03,Signs_BText,Sign,0000,0000,0000,,{\an7\fs18\pos(18,76.5)}Shizuoka Prefecture\NMishima Taisha
-Dialogue: 0,0:09:53.03,0:09:56.53,Signs_BText,Sign,0000,0000,0000,,{\an7\fs18\pos(23,110)}Shizuoka Prefecture\NMishima Taisha\NSacred Deer Park
-Dialogue: 0,0:09:57.03,0:09:59.78,Narration,Narrator,0000,0000,0000,,It's finally summertime in Hino City!
-Dialogue: 0,0:10:02.01,0:10:05.62,Default,Anko,0000,0000,0000,,Who would've thought summer would \Ncome to Hino City... Right, Onee-chan?
-Dialogue: 0,0:10:05.62,0:10:08.78,Default,Koshitan,0000,0000,0000,,I mean, summer comes \Nto Hino City all the time.
-Dialogue: 0,0:10:08.78,0:10:10.44,Default,Koshitan,0000,0000,0000,,You and the narrator guy
-Dialogue: 0,0:10:10.44,0:10:14.27,Default,Koshitan,0000,0000,0000,,seem to think Hino is some ominous place \Noutside the human realm and understanding.
-Dialogue: 0,0:10:14.27,0:10:17.30,Narration,Narrator,0000,0000,0000,,I mean... the manga went for over \Nthree years without one summer.
-Dialogue: 0,0:10:17.30,0:10:20.30,Default,Anko,0000,0000,0000,,Well, anyway. Our summer \Nuniforms are nice, too.
-Dialogue: 0,0:10:20.30,0:10:21.50,Default,Koshitan,0000,0000,0000,,Yeah.
-Dialogue: 0,0:10:21.50,0:10:24.61,Default,Koshitan,0000,0000,0000,,Even if our uniforms are old hat by now, \Njust shortening the sleeves
-Dialogue: 0,0:10:24.61,0:10:27.18,Default,Koshitan,0000,0000,0000,,adds a refreshing bit of eye candy.
-Dialogue: 0,0:10:27.18,0:10:28.06,Default,Koshitan,0000,0000,0000,,Just kidding.
-Dialogue: 0,0:10:28.06,0:10:29.31,Default,Anko,0000,0000,0000,,You're right, though.
-Dialogue: 0,0:10:30.78,0:10:35.02,Default,Anko,0000,0000,0000,,Just look at how much of your upper arm \Nshows thanks to those short sleeves!
-Dialogue: 0,0:10:35.37,0:10:39.32,Default,Anko,0000,0000,0000,,Not to mention the glimpses of your alluring \Narmpits that show through the hole...
-Dialogue: 0,0:10:39.32,0:10:41.21,Default,Anko,0000,0000,0000,,An all-you-can-eat buffet for the eyes!
-Dialogue: 0,0:10:41.21,0:10:42.24,Default,Anko,0000,0000,0000,,It's the best.
-Dialogue: 0,0:10:42.24,0:10:44.21,Default,Koshitan,0000,0000,0000,,Where the hell are you looking?!
-Dialogue: 0,0:10:44.89,0:10:45.95,Default,Anko,0000,0000,0000,,And, of course...
-Dialogue: 0,0:10:46.24,0:10:49.33,Default,Anko,0000,0000,0000,,The faint outline on your back visible \Nthrough the thin summer uniform...
-Dialogue: 0,0:10:49.56,0:10:51.33,Default,Anko,0000,0000,0000,,The pure-white love bra strap!
-Dialogue: 0,0:10:51.33,0:10:52.46,Default,Koshitan,0000,0000,0000,,Your eyes are creeping me out!
-Dialogue: 0,0:10:52.46,0:10:54.82,Default,Anko,0000,0000,0000,,Oh, you're being so bashful, Onee-chan!
-Dialogue: 0,0:10:54.82,0:10:55.99,Default,Anko,0000,0000,0000,,So cute.
-Dialogue: 0,0:10:55.99,0:10:58.61,Default,Koshitan,0000,0000,0000,,Don't inch closer to me \Nwith those predatory eyes!
-Dialogue: 0,0:10:58.61,0:11:01.13,Default,Classmate A,0000,0000,0000,,Oh, it's Koshi-san and her little sister.
-Dialogue: 0,0:11:01.85,0:11:03.82,Default,Classmate C,0000,0000,0000,,They're so close even when \Nit's bright and early.
-Dialogue: 0,0:11:03.82,0:11:05.85,Default,Classmate B,0000,0000,0000,,Sister yuri... I can dig it!
-Dialogue: 0,0:11:06.09,0:11:08.23,Default,Nokotan,0000,0000,0000,,Oh, hey. It's Koshitan and Koshian!
-Dialogue: 0,0:11:08.23,0:11:10.02,Default,Koshitan,0000,0000,0000,,And now more predators.
-Dialogue: 0,0:11:10.02,0:11:13.01,Default,Nokotan,0000,0000,0000,,Let's do our best at being deer as usual!
-Dialogue: 0,0:11:13.01,0:11:15.40,Default,Koshitan,0000,0000,0000,,Okay, what the hell happened to you now?!
-Dialogue: 0,0:11:15.40,0:11:17.65,Signs,Sign,0000,0000,0000,,{\fs12\bord2\fnArial Black\c&H32282D&\3c&H062C9B&\pos(428,82)}Deer Club\N{\fs8}Seeking New Club Members
-Dialogue: 0,0:11:15.40,0:11:17.65,Narration,Narrator,0000,0000,0000,,Anyway, a bunch happened, \Nand now it's after school.
-Dialogue: 0,0:11:19.54,0:11:22.08,Default,Anko,0000,0000,0000,,It's been a while, but I guess \Nit's not going away.
-Dialogue: 0,0:11:22.08,0:11:24.03,Default,Anko,0000,0000,0000,,Does anything feel strange?
-Dialogue: 0,0:11:24.27,0:11:26.66,Default,Nokotan,0000,0000,0000,,Nope! My antlers are moving just fine, too!
-Dialogue: 0,0:11:26.66,0:11:29.22,Default,Koshitan,0000,0000,0000,,Antlers aren't supposed to move.
-Dialogue: 0,0:11:29.22,0:11:31.92,Default,Koshitan,0000,0000,0000,,Actually, you know...
-Dialogue: 0,0:11:32.17,0:11:36.67,Default,Koshitan,0000,0000,0000,,Did you eat something off the ground \Nand catch some weird disease?
-Dialogue: 0,0:11:36.67,0:11:41.06,Default,Nokotan,0000,0000,0000,,How rude! The only thing I eat \Noff the ground is deer crackers!
-Dialogue: 0,0:11:41.06,0:11:42.85,Default,Koshitan,0000,0000,0000,,So you {\i1}are{\i0} eating things off the ground.
-Dialogue: 0,0:11:42.85,0:11:47.58,Default,Anko,0000,0000,0000,,But it's rare to find deer crackers randomly \Nlying on the ground outside of Nara.
-Dialogue: 0,0:11:47.58,0:11:49.52,Default,Bashame,0000,0000,0000,,Bashame has figured it out.
-Dialogue: 0,0:11:49.90,0:11:52.65,Default,Bashame,0000,0000,0000,,Bashame has seen those spots \Nthat are on your body before.
-Dialogue: 0,0:11:52.65,0:11:55.25,Default,Bashame,0000,0000,0000,,And it is indeed a disease!
-Dialogue: 0,0:11:55.88,0:11:57.77,Default,Koshitan,0000,0000,0000,,W-Wait, seriously, Bashame?
-Dialogue: 0,0:11:58.07,0:12:01.15,Default,Bashame,0000,0000,0000,,Yes. The disease Nokotan-senpai has is...
-Dialogue: 0,0:12:01.15,0:12:02.82,Default,Koshitan,0000,0000,0000,,Is...?
-Dialogue: 0,0:12:02.60,0:12:03.79,DefaultTop,Anko,0000,0000,0000,,Is...?
-Dialogue: 0,0:12:03.79,0:12:05.37,Default,Nokotan,0000,0000,0000,,Is...?
-Dialogue: 0,0:12:05.37,0:12:07.05,Default,Bashame,0000,0000,0000,,The arch-nemesis of rice!
-Dialogue: 0,0:12:07.05,0:12:09.87,Default,Bashame,0000,0000,0000,,It's rice blast!
-Dialogue: 0,0:12:10.18,0:12:14.12,Narration,Narrator,0000,0000,0000,,Rice blast is a disease caused by a \Nfungus that can grow in rice paddies.
-Dialogue: 0,0:12:14.73,0:12:18.38,Narration,Narrator,0000,0000,0000,,White splotches appear on \Nthe leaves of infected plants.
-Dialogue: 0,0:12:18.38,0:12:22.95,Narration,Narrator,0000,0000,0000,,If the symptoms worsen, the plant \Nwill eventually wither completely.
-Dialogue: 0,0:12:22.95,0:12:27.41,Narration,Narrator,0000,0000,0000,,Not only does it reduce the yield of the rice \Nharvest, it can even kill off entire paddies,
-Dialogue: 0,0:12:27.41,0:12:30.81,Narration,Narrator,0000,0000,0000,,making it the disease that rice farmers \Nare the most afraid of.
-Dialogue: 0,0:12:30.81,0:12:32.77,Default,Koshitan,0000,0000,0000,,That's not even an animal disease!
-Dialogue: 0,0:12:32.77,0:12:34.63,Default,Bashame,0000,0000,0000,,There's no doubt about it.
-Dialogue: 0,0:12:34.63,0:12:38.00,Default,Bashame,0000,0000,0000,,Bashame watches {\i1}THE TETSUWAN DASH{\i0} \Nall the time, so Bashame knows lots.
-Dialogue: 0,0:12:37.94,0:12:39.52,Signs,Sign,0000,0000,0000,,{\fad(484,1)\fnTimes New Roman\pos(180,16.5)\c&HF8F6ED&\shad1\4a&H33&}Shut your mouth, Koshitan!
-Dialogue: 0,0:12:39.52,0:12:42.51,Default,Koshitan,0000,0000,0000,,I mean, DASH {\i1}is{\i0} a great show...
-Dialogue: 0,0:12:42.51,0:12:43.95,Default,Koshitan,0000,0000,0000,,But that aside...
-Dialogue: 0,0:12:43.95,0:12:46.32,Default,Koshitan,0000,0000,0000,,Your face is really pissing me off!
-Dialogue: 0,0:12:46.32,0:12:49.47,Default,Nokotan,0000,0000,0000,,Oh. I guess I was a rice plant, \Nnot a deer, all along.
-Dialogue: 0,0:12:49.47,0:12:54.34,Default,Anko,0000,0000,0000,,Shika-san and Ine-san are like \Nold names for women in Japan.
-Dialogue: 0,0:12:54.34,0:12:58.93,Default,Bashame,0000,0000,0000,,Bashame respects you as \Na deer, Nokotan-senpai.
-Dialogue: 0,0:12:58.93,0:13:03.32,Default,Bashame,0000,0000,0000,,But... as someone who worries about \NJapan's food self-sufficiency rates declining,
-Dialogue: 0,0:13:03.32,0:13:05.26,Default,Bashame,0000,0000,0000,,rice blast must be taken care of!
-Dialogue: 0,0:13:05.26,0:13:09.76,Signs,Sign,0000,0000,0000,,{\fs32\fnArial Black\c&H734DEA&\bord1.5\3c&HECECEC&}M{\c&H335483&}y {\c&HD06F80&}D{\c&H335483&}eer {\c&H04BFF4&}F{\c&H335483&}riend {\c&H2BD8A8&}N{\c&H335483&}okotan
-Dialogue: 0,0:13:05.51,0:13:09.76,Narration,Narrator,0000,0000,0000,,Please continue to support the social \Nstudies anime {\i0}My Deer Friend Nokotan{\i1}.
-Dialogue: 0,0:13:10.24,0:13:12.90,Default,Nokotan,0000,0000,0000,,You're right, Bashame.
-Dialogue: 0,0:13:12.90,0:13:19.31,Default,Nokotan,0000,0000,0000,,I can't go causin' trouble for all the \Nrice farmers in Japan with my sickly body.
-Dialogue: 0,0:13:19.31,0:13:20.15,Default,Koshitan,0000,0000,0000,,Shikanoko?
-Dialogue: 0,0:13:20.38,0:13:23.25,Default,Nokotan,0000,0000,0000,,Deer don't truly die. They just disappear.
-Dialogue: 0,0:13:23.59,0:13:26.61,Default,Nokotan,0000,0000,0000,,Koshitan, I leave the Deer Club in your hands.
-Dialogue: 0,0:13:25.07,0:13:26.61,Signs,Sign,0000,0000,0000,,{\fad(443,1)\an9\fnTimes New Roman\fs24\c&H250A86&\3c&H58B4DE&\bord2\pos(613.5,180.5)}D{\3c&HF9FBFF&}e{\3c&H58B4DE&}e{\3c&HF9FBFF&}r {\3c&H58B4DE&}C{\3c&HF9FBFF&}r{\3c&H58B4DE&}a{\3c&HF9FBFF&}c{\3c&H58B4DE&}k{\3c&HF9FBFF&}e{\3c&H58B4DE&}r{\3c&HF9FBFF&}s
-Dialogue: 0,0:13:26.61,0:13:29.57,Default,Koshitan,0000,0000,0000,,H-Hey, what do you mean by that?
-Dialogue: 0,0:13:29.57,0:13:32.08,Default,Koshitan,0000,0000,0000,,This whole club was your idea!
-Dialogue: 0,0:13:32.08,0:13:34.62,Default,Nokotan,0000,0000,0000,,See ya... Koshitan.
-Dialogue: 0,0:13:48.64,0:13:50.64,Default,Koshitan,0000,0000,0000,,Sh-Shikanoko!
-Dialogue: 0,0:13:50.93,0:13:54.96,Default,Bashame,0000,0000,0000,,Koshitan-senpai sure does get \Ninfluenced by the mood easily.
-Dialogue: 0,0:13:54.96,0:13:58.18,Default,Anko,0000,0000,0000,,That's one of the best \Nthings about my sister!
-Dialogue: 0,0:13:58.90,0:14:00.65,Signs,Sign,0000,0000,0000,,{\an9\fnTimes New Roman\fs26\c&H250A86&\3c&H58B4DE&\bord2\pos(619.5,69)}D{\3c&HF9FBFF&}e{\3c&H58B4DE&}e{\3c&HF9FBFF&}r {\3c&H58B4DE&}C{\3c&HF9FBFF&}r{\3c&H58B4DE&}a{\3c&HF9FBFF&}c{\3c&H58B4DE&}k{\3c&HF9FBFF&}e{\3c&H58B4DE&}r{\3c&HF9FBFF&}s
-Dialogue: 0,0:14:00.65,0:14:03.36,Default,Nokotan,0000,0000,0000,,Tsunoda-san, are you slacking off again?
-Dialogue: 0,0:14:03.36,0:14:05.90,Default,Nokotan,0000,0000,0000,,I know it's hot, but you \Nshouldn't be doing that.
-Dialogue: 0,0:14:05.90,0:14:08.09,Default,Koshitan,0000,0000,0000,,Whatever happened to him being a "wild" deer?
-Dialogue: 0,0:14:11.50,0:14:13.38,Default,Koshitan,0000,0000,0000,,Hey, Shikanoko.
-Dialogue: 0,0:14:13.38,0:14:15.16,Default,Koshitan,0000,0000,0000,,Tsunoda-san's body...
-Dialogue: 0,0:14:15.16,0:14:19.29,Signs,Sign,0000,0000,0000,,{\an7\fnTimes New Roman\fs16\c&H250A86&\3c&H58B4DE&\bord2\pos(432.5,146)}D{\3c&HF9FBFF&}e{\3c&H58B4DE&}e{\3c&HF9FBFF&}r {\3c&H58B4DE&}C{\3c&HF9FBFF&}r{\3c&H58B4DE&}a{\3c&HF9FBFF&}c{\3c&H58B4DE&}k{\3c&HF9FBFF&}e{\3c&H58B4DE&}r{\3c&HF9FBFF&}s
-Dialogue: 0,0:14:15.46,0:14:17.08,Default,Nokotan,0000,0000,0000,,Notsu? Oh!
-Dialogue: 0,0:14:17.08,0:14:19.29,Default,Nokotan,0000,0000,0000,,We match, Tsunoda-san.
-Dialogue: 0,0:14:20.70,0:14:25.72,Default,Anko,0000,0000,0000,,Onee-chan, maybe she's not sick. \NMaybe she's just molting.
-Dialogue: 0,0:14:25.72,0:14:26.55,Default,Koshitan,0000,0000,0000,,Molting?
-Dialogue: 0,0:14:30.33,0:14:34.17,Narration,Narrator,0000,0000,0000,,Twice per year, deer molt in order to \Nchange into their summer or winter coats.
-Dialogue: 0,0:14:34.67,0:14:37.84,Narration,Narrator,0000,0000,0000,,And the noticeable spots that \Nshow up on their summer coats
-Dialogue: 0,0:14:37.84,0:14:39.69,Narration,Narrator,0000,0000,0000,,are also known as the "kanoko" design.
-Dialogue: 0,0:14:40.16,0:14:43.57,Narration,Narrator,0000,0000,0000,,Surely you've seen it on the back \Nof that one world-famous fawn—
-Dialogue: 0,0:14:43.57,0:14:47.77,Default,Koshitan,0000,0000,0000,,Hey, wait! When it comes to copyright, that's \Nthe one company you don't want to mess with!
-Dialogue: 0,0:14:47.77,0:14:51.15,Default,Anko,0000,0000,0000,,That story's in the public domain now, \Nso should be fine... probably.
-Dialogue: 0,0:14:51.98,0:14:54.93,Default,Nokotan,0000,0000,0000,,Oh, so I was just molting.
-Dialogue: 0,0:14:54.93,0:14:57.08,Default,Nokotan,0000,0000,0000,,Whoopsies. Tee-hee.
-Dialogue: 0,0:14:57.08,0:15:06.96,Signs,Sign,0000,0000,0000,,{\fs30\fnComic Sans MS\c&H151E2A&\pos(389,31)}April ~ May
-Dialogue: 0,0:14:57.35,0:15:01.37,Narration,Narrator,0000,0000,0000,,Note: deer actually change into their \Nsummer coats between April and May.
-Dialogue: 0,0:15:01.37,0:15:05.38,Narration,Narrator,0000,0000,0000,,But we're just some dumb comedy anime, \Nso don't think about it too hard.
-Dialogue: 0,0:15:05.38,0:15:06.96,Default,Koshitan,0000,0000,0000,,Don't call us dumb.
-Dialogue: 0,0:15:06.96,0:15:10.76,Default,Bashame,0000,0000,0000,,Bashame believed in you from \Nthe start, Nokotan-senpai.
-Dialogue: 0,0:15:10.76,0:15:11.59,Default,Koshitan,0000,0000,0000,,Why, you little...
-Dialogue: 0,0:15:11.89,0:15:15.56,Default,Nokotan,0000,0000,0000,,Well, no wonder I shed \Nso much since yesterday.
-Dialogue: 0,0:15:15.56,0:15:16.97,Default,Nokotan,0000,0000,0000,,Just look at all this!
-Dialogue: 0,0:15:17.97,0:15:20.89,Default,Koshitan,0000,0000,0000,,Yeah, that's definitely \Nthe other kind of molting!
-Dialogue: 0,0:15:20.89,0:15:24.11,Default,Nokotan,0000,0000,0000,,What? I mean this clearly all hair!
-Dialogue: 0,0:15:24.11,0:15:26.37,Default,Koshitan,0000,0000,0000,,Look, that's terrifying!
-Dialogue: 0,0:15:26.37,0:15:28.36,Default,Nokotan,0000,0000,0000,,Oh, no! My fur!
-Dialogue: 0,0:15:33.18,0:15:34.16,Default,Koshitan,0000,0000,0000,,Don't put it on!
-Dialogue: 0,0:15:34.64,0:15:37.01,Default,Bashame,0000,0000,0000,,The ventilation is great!
-Dialogue: 0,0:15:37.51,0:15:40.25,Default,Nokotan,0000,0000,0000,,Well, now that we're all \Ndressed for the season,
-Dialogue: 0,0:15:40.25,0:15:42.67,Default,Nokotan,0000,0000,0000,,let the Deer Club's summer officially begin!
-Dialogue: 0,0:15:42.67,0:15:43.79,Default,Nokotan and Bashame,0000,0000,0000,,Yeah!
-Dialogue: 0,0:15:46.09,0:15:47.25,Default,Anko,0000,0000,0000,,Onee-chan?
-Dialogue: 0,0:15:47.25,0:15:52.30,Default,Koshitan,0000,0000,0000,,Well, I mean... I'm pretty sure this \Nsummer's gonna be insane, you know?
-Dialogue: 0,0:15:52.53,0:15:57.31,Narration,Narrator,0000,0000,0000,,Now that they're appropriately dressed, the \NDeer Club's hot summer can begin in earnest.
-Dialogue: 0,0:15:57.85,0:16:01.13,Default,Tanuki,0000,0000,0000,,Huh? Chiharu, is that a new antler?
-Dialogue: 0,0:16:01.13,0:16:04.01,Default,Tsbuame,0000,0000,0000,,Yeah. I bought it for 2,000 yen on Mercari.
-Dialogue: 0,0:16:04.01,0:16:05.31,Default,Tsbuame,0000,0000,0000,,What a bargain.
-Dialogue: 0,0:16:05.83,0:16:08.04,Narration,Narrator,0000,0000,0000,,And then that hot summer...
-Dialogue: 0,0:16:08.04,0:16:10.32,Narration,Narrator,0000,0000,0000,,ended with no particular issue.
-Dialogue: 0,0:16:10.32,0:16:15.19,Default,Koshitan,0000,0000,0000,,Was there a reason our hot summer \Ndidn't even make it to the end credits?
-Dialogue: 0,0:16:16.20,0:16:18.10,Default,Bashame,0000,0000,0000,,Heya, Anko-chan.
-Dialogue: 0,0:16:16.20,0:16:23.71,Signs,Sign,0000,0000,0000,,{\an9\fnTimes New Roman\fs20\c&H250A86&\3c&H58B4DE&\bord2\pos(618.5,116)}D{\3c&HF9FBFF&}e{\3c&H58B4DE&}e{\3c&HF9FBFF&}r {\3c&H58B4DE&}C{\3c&HF9FBFF&}r{\3c&H58B4DE&}a{\3c&HF9FBFF&}c{\3c&H58B4DE&}k{\3c&HF9FBFF&}e{\3c&H58B4DE&}r{\3c&HF9FBFF&}s
-Dialogue: 0,0:16:18.10,0:16:22.35,Default,Nokotan,0000,0000,0000,,All my fur molted again, so here's \Na fresh coat just for you, Koshian!
-Dialogue: 0,0:16:22.35,0:16:23.71,Default,Anko,0000,0000,0000,,Oh, no. My hand slipped.
-Dialogue: 0,0:16:24.71,0:16:27.21,Default,Bashame,0000,0000,0000,,That's such a waste, Anko-chan!
-Dialogue: 0,0:16:27.21,0:16:29.96,Default,Bashame,0000,0000,0000,,These are so comfy to wear.
-Dialogue: 0,0:16:29.96,0:16:32.34,Default,Anko,0000,0000,0000,,How long are you going \Nto be wearing that thing?
-Dialogue: 0,0:16:33.32,0:16:34.67,Default,Koshitan,0000,0000,0000,,Shedding hair, huh?
-Dialogue: 0,0:16:44.21,0:16:50.11,Narration,Narrator,0000,0000,0000,,Koshitan decided to halt her train of thought \Nbefore it arrived at a terrifying station.
-Dialogue: 0,0:16:50.37,0:16:53.11,Default,Neko,0000,0000,0000,,So, about our plan \Nto eradicate the Deer Club...
-Dialogue: 0,0:16:53.57,0:16:56.24,Default,Neko,0000,0000,0000,,Let's have you two report on your progress.
-Dialogue: 0,0:16:56.73,0:17:02.37,Default,Tanuki,0000,0000,0000,,Progress? But Chiharu and I aren't \Nexactly planning to eradicate it...
-Dialogue: 0,0:17:02.84,0:17:06.75,Default,Neko,0000,0000,0000,,What? But you said you'd assist me!
-Dialogue: 0,0:17:07.07,0:17:09.25,Default,Tanuki,0000,0000,0000,,I didn't say anything of the sort!
-Dialogue: 0,0:17:09.52,0:17:12.94,Default,Neko,0000,0000,0000,,What?! Also, why are we back \Nto winter uniforms?
-Dialogue: 0,0:17:12.94,0:17:15.68,Default,Neko,0000,0000,0000,,I didn't even get to show \Noff my summer uniform!
-Dialogue: 0,0:17:15.68,0:17:19.26,Default,Neko,0000,0000,0000,,I don't even remember having \Nany kind of summer vacation!
-Dialogue: 0,0:17:19.26,0:17:26.45,Default,Tanuki,0000,0000,0000,,I'm so sorry! It's probably because \Nmy upper arms are so flabby and ugly
-Dialogue: 0,0:17:26.45,0:17:29.27,Default,Tanuki,0000,0000,0000,,and visible with short sleeves \Nthat our summer just ended!
-Dialogue: 0,0:17:29.78,0:17:32.28,Narration,Narrator,0000,0000,0000,,Your lack of a summer vacation \Nis a feature, not a bug.
-Dialogue: 0,0:17:32.28,0:17:34.18,Default,Nokotan,0000,0000,0000,,May I have a moment?
-Dialogue: 0,0:17:34.18,0:17:36.91,Default,Neko,0000,0000,0000,,Oh? Do you have something to report?
-Dialogue: 0,0:17:38.96,0:17:41.22,Default,Neko,0000,0000,0000,,Wait, what are you doing here?!
-Dialogue: 0,0:17:41.20,0:17:43.45,Signs,Sign,0000,0000,0000,,{\fad(193,1)\fnComic Sans MS\bord2\c&H7F6CEF&\3c&H665BBE&}Hiiiisss
-Dialogue: 0,0:17:41.22,0:17:43.45,Default,Neko,0000,0000,0000,,This is a Deer Club eradication meeting!
-Dialogue: 0,0:17:43.45,0:17:45.21,Default,Neko,0000,0000,0000,,We can't do it with the Deer Club here!
-Dialogue: 0,0:17:45.21,0:17:48.17,Default,Nokotan,0000,0000,0000,,Now's not the time to sweat the small stuff.
-Dialogue: 0,0:17:48.39,0:17:51.13,Default,Neko,0000,0000,0000,,Small? It's your club we're eradicating!
-Dialogue: 0,0:17:51.13,0:17:53.55,Default,Neko,0000,0000,0000,,I mean, I guess I shouldn't bring that up.
-Dialogue: 0,0:17:53.83,0:17:56.44,Default,Nokotan,0000,0000,0000,,I have made the discovery of the century.
-Dialogue: 0,0:17:57.23,0:17:58.34,Default,Neko,0000,0000,0000,,Of the century?
-Dialogue: 0,0:17:58.75,0:17:59.83,Default,Nokotan,0000,0000,0000,,Take a look at this.
-Dialogue: 0,0:18:01.85,0:18:03.12,Default,Neko,0000,0000,0000,,What is that?
-Dialogue: 0,0:18:03.12,0:18:04.06,Default,Nokotan,0000,0000,0000,,Heh.
-Dialogue: 0,0:18:04.13,0:18:05.35,Default,Nokotan,0000,0000,0000,,It's a tsuchinoko!
-Dialogue: 0,0:18:05.35,0:18:06.73,Default,Neko,0000,0000,0000,,It absolutely is not!
-Dialogue: 0,0:18:07.04,0:18:10.69,Default,Neko,0000,0000,0000,,Wh-What in the world is this mysterious orb?!
-Dialogue: 0,0:18:12.04,0:18:13.70,Default,Neko,0000,0000,0000,,It moved!
-Dialogue: 0,0:18:13.70,0:18:15.56,Default,Neko,0000,0000,0000,,Are those {\i1}tentacles{\i0} growing from it?!
-Dialogue: 0,0:18:15.56,0:18:18.14,Default,Neko,0000,0000,0000,,And it's squirming around! Gross!
-Dialogue: 0,0:18:18.14,0:18:20.38,Default,Tanuki,0000,0000,0000,,What a unique shape.
-Dialogue: 0,0:18:20.38,0:18:22.83,Default,Tsubame,0000,0000,0000,,The mysteries of life...
-Dialogue: 0,0:18:22.83,0:18:24.83,Default,Neko,0000,0000,0000,,Wha... You two are rather calm.
-Dialogue: 0,0:18:24.83,0:18:26.13,Default,Nokotan,0000,0000,0000,,Isn't it amazing?
-Dialogue: 0,0:18:26.13,0:18:28.39,Default,Nokotan,0000,0000,0000,,I found it when I was digging up \Nholes in the schoolyard.
-Dialogue: 0,0:18:28.39,0:18:32.44,Default,Neko,0000,0000,0000,,What do you think you're doing? And wait, \Nthat thing was buried on school grounds?
-Dialogue: 0,0:18:32.44,0:18:33.46,Default,Neko,0000,0000,0000,,Yikes!
-Dialogue: 0,0:18:33.46,0:18:36.21,Default,Neko,0000,0000,0000,,Not to mention, isn't the \Ntsuchinoko that one thing?
-Dialogue: 0,0:18:36.21,0:18:40.62,Default,Neko,0000,0000,0000,,That unidentified lifeform... \Nwith the, uh, indescribable form...
-Dialogue: 0,0:18:40.62,0:18:43.07,Default,Nokotan,0000,0000,0000,,But this also has an indescribable form.
-Dialogue: 0,0:18:43.07,0:18:45.60,Default,Neko,0000,0000,0000,,Yes, it does! I mean, you have a point, but...
-Dialogue: 0,0:18:45.60,0:18:48.74,Default,Neko,0000,0000,0000,,We don't know that \Ntsuchinoko even really exist!
-Dialogue: 0,0:18:50.50,0:18:53.32,Default,Neko,0000,0000,0000,,Wait, now it's shining!
-Dialogue: 0,0:18:53.32,0:18:55.73,Default,Nokotan,0000,0000,0000,,See? I told you! It's a tsuchinoko!
-Dialogue: 0,0:18:55.73,0:19:00.08,Default,Neko,0000,0000,0000,,Wait a second. Are we even \Nimagining the same tsuchinoko here?
-Dialogue: 0,0:19:00.08,0:19:02.86,Default,Neko,0000,0000,0000,,This is clearly much \Ncreepier than a tsuchinoko!
-Dialogue: 0,0:19:02.86,0:19:04.87,Default,Neko,0000,0000,0000,,That's absolutely not it!
-Dialogue: 0,0:19:04.87,0:19:06.24,Default,Nokotan,0000,0000,0000,,What makes you so sure?!
-Dialogue: 0,0:19:06.48,0:19:09.90,Default,Nokotan,0000,0000,0000,,Aren't you being rash by saying it's \Nnot one because you subjectively think
-Dialogue: 0,0:19:09.90,0:19:11.50,Default,Nokotan,0000,0000,0000,,its form and ecology are wrong?!
-Dialogue: 0,0:19:11.50,0:19:14.38,Default,Nokotan,0000,0000,0000,,Not to mention, have you ever \Nseen a tsuchinoko before?!
-Dialogue: 0,0:19:14.38,0:19:18.23,Default,Nokotan,0000,0000,0000,,Can you really say without a doubt \Nthat this isn't a tsuchinoko?!
-Dialogue: 0,0:19:18.23,0:19:21.51,Default,Neko,0000,0000,0000,,Conversely, why do you want it \Nto be a tsuchinoko that badly?
-Dialogue: 0,0:19:22.96,0:19:28.39,Default,Nokotan,0000,0000,0000,,Hey, wait. Tsuchinoko... \NShikanoko... Could it be...
-Dialogue: 0,0:19:28.67,0:19:31.39,Default,Nokotan,0000,0000,0000,,that I now have a "deer friend" of my own?
-Dialogue: 0,0:19:31.39,0:19:32.65,Default,Neko,0000,0000,0000,,What on earth are you talking about?
-Dialogue: 0,0:19:32.65,0:19:35.90,Signs,Sign,0000,0000,0000,,{\fs32\fnArial Black\c&H734DEA&\bord1.5\3c&HECECEC&}M{\c&H203956&}y {\c&HD06F80&}D{\c&H203956&}irt {\c&H04BFF4&}F{\c&H203956&}riend {\c&H2BD8A8&}T{\c&H203956&}suchinoko
-Dialogue: 0,0:19:32.65,0:19:35.91,Narration,Narrator,0000,0000,0000,,Our new show, {\i0}My Dirt Friend \NTsuchinoko{\i1}, is about to start.
-Dialogue: 0,0:19:36.45,0:19:38.69,Default,Tanuki,0000,0000,0000,,But the more you look at it...
-Dialogue: 0,0:19:38.69,0:19:42.73,Default,Tanuki,0000,0000,0000,,The way it feels, with its smooth skin \Nand ceramic-like finish...
-Dialogue: 0,0:19:42.73,0:19:44.03,Default,Tanuki,0000,0000,0000,,It might actually be cute.
-Dialogue: 0,0:19:44.25,0:19:48.41,Default,Neko,0000,0000,0000,,I've never heard anyone describe \Nan unidentified lifeform that way.
-Dialogue: 0,0:19:48.63,0:19:49.71,Default,Tsubame,0000,0000,0000,,Tsucchi.
-Dialogue: 0,0:19:49.71,0:19:51.19,Default,Neko,0000,0000,0000,,Wait, you named it?
-Dialogue: 0,0:19:51.19,0:19:54.04,Default,Neko,0000,0000,0000,,You feel so fondly about it \Nthat you gave it a name?
-Dialogue: 0,0:19:54.04,0:19:57.67,Default,Tsubame,0000,0000,0000,,But it doesn't seem as energetic as before.
-Dialogue: 0,0:19:57.67,0:20:01.08,Default,Tanuki,0000,0000,0000,,Was it trying to say something to us \Nwhen it shone before?
-Dialogue: 0,0:20:01.08,0:20:03.66,Default,Tsubame,0000,0000,0000,,I wonder if it's hungry.
-Dialogue: 0,0:20:03.66,0:20:05.93,Default,Nokotan,0000,0000,0000,,I see! Let's feed it!
-Dialogue: 0,0:20:05.93,0:20:08.73,Default,Neko,0000,0000,0000,,Feed it? You don't even know what tsuchi—
-Dialogue: 0,0:20:09.14,0:20:11.68,Default,Neko,0000,0000,0000,,what that thing eats, do you?
-Dialogue: 0,0:20:12.62,0:20:14.67,Default,Nokotan,0000,0000,0000,,It eats deer crackers, of course!
-Dialogue: 0,0:20:14.67,0:20:16.31,Default,Neko,0000,0000,0000,,What do you mean, "of course"?
-Dialogue: 0,0:20:16.61,0:20:18.82,Default,Nokotan,0000,0000,0000,,Here you go. I've got a yummy \Ndeer cracker for you.
-Dialogue: 0,0:20:19.05,0:20:20.50,Default,Nokotan,0000,0000,0000,,Eat up!
-Dialogue: 0,0:20:21.84,0:20:22.57,Signs,Sign,0000,0000,0000,,{\bord1.5\fnComic Sans MS\c&HE3C4B2&\3c&HA57C71&}Harrumph
-Dialogue: 0,0:20:23.68,0:20:27.22,Default,Nokotan,0000,0000,0000,,Y-You don't like deer crackers?!
-Dialogue: 0,0:20:27.22,0:20:28.50,Default,Nokotan,0000,0000,0000,,Then how about some grass?
-Dialogue: 0,0:20:28.50,0:20:30.54,Default,Nokotan,0000,0000,0000,,Or maybe some boba?
-Dialogue: 0,0:20:29.81,0:20:30.54,Signs,Sign,0000,0000,0000,,{\fs28\an7\fad(127,1)\bord1.5\fnComic Sans MS\c&HE3C4B2&\3c&HA57C71&}Harrumph
-Dialogue: 0,0:20:30.54,0:20:31.66,Default,Nokotan,0000,0000,0000,,Say it ain't so!
-Dialogue: 0,0:20:31.66,0:20:34.81,Default,Nokotan,0000,0000,0000,,Wh-Why don't you just try one bite?
-Dialogue: 0,0:20:34.81,0:20:35.38,Default,Nokotan,0000,0000,0000,,Come on!
-Dialogue: 0,0:20:37.54,0:20:39.80,Default,Neko,0000,0000,0000,,Is that intimidation? \NIs it trying to intimidate you?!
-Dialogue: 0,0:20:39.80,0:20:44.69,Default,Nokotan,0000,0000,0000,,No, wait... Could it be that... \Nyou're not a tsuchinoko?
-Dialogue: 0,0:20:44.69,0:20:47.55,Default,Neko,0000,0000,0000,,That's what I've been telling you \Nthis whole time!
-Dialogue: 0,0:20:48.04,0:20:53.18,Narration,Narrator,0000,0000,0000,,Neko-chan's retorts fill Koshitan's shoes so \Nseamlessly, you can hardly tell she's gone.
-Dialogue: 0,0:20:53.43,0:20:56.25,Narration,Narrator,0000,0000,0000,,In any case, after trying \Nto feed it various things...
-Dialogue: 0,0:20:57.58,0:20:59.44,Narration,Narrator,0000,0000,0000,,It seems to like chalk.
-Dialogue: 0,0:20:59.44,0:21:00.91,Default,Tanuki,0000,0000,0000,,Eat up.
-Dialogue: 0,0:21:01.69,0:21:05.02,Default,Tsubame,0000,0000,0000,,A photo of Tsucchi and \NNokotan-senpai together...
-Dialogue: 0,0:21:05.02,0:21:06.45,Default,Tsubame,0000,0000,0000,,Super rare.
-Dialogue: 0,0:21:06.73,0:21:11.24,Default,Neko,0000,0000,0000,,I don't know how you all can give \Nthat unknown thing so much attention.
-Dialogue: 0,0:21:11.24,0:21:13.94,Default,Tanuki,0000,0000,0000,,It's basically the same as a dog \Nor a cat once you get used to it.
-Dialogue: 0,0:21:13.94,0:21:16.08,Default,Tanuki,0000,0000,0000,,You should try touching it, too, Senpai.
-Dialogue: 0,0:21:16.08,0:21:18.84,Default,Neko,0000,0000,0000,,What...? Touch it?
-Dialogue: 0,0:21:21.01,0:21:21.66,Default,Neko,0000,0000,0000,,What?
-Dialogue: 0,0:21:33.31,0:21:36.39,Default,Neko,0000,0000,0000,,I-It's so cute...
-Dialogue: 0,0:21:38.23,0:21:39.48,Default,Koshitan,0000,0000,0000,,Sorry I'm la—
-Dialogue: 0,0:21:40.50,0:21:44.27,Default,Koshitan,0000,0000,0000,,Wha, whoa... What the heck \Nis that mysterious organism?!
-Dialogue: 0,0:21:45.13,0:21:45.82,Default,Neko,0000,0000,0000,,...ko.
-Dialogue: 0,0:21:46.14,0:21:47.57,Default,Koshitan,0000,0000,0000,,Nekoyamada-san?
-Dialogue: 0,0:21:48.11,0:21:49.45,Default,Neko,0000,0000,0000,,It's a tsuchinoko!
-Dialogue: 0,0:21:49.45,0:21:52.49,Default,Koshitan,0000,0000,0000,,Uh... No, it definitely is not.
-Dialogue: 0,0:21:52.49,0:21:55.66,Default,Koshitan,0000,0000,0000,,More importantly, what's \NShikanoko-san doing here?
-Dialogue: 0,0:21:55.66,0:21:57.93,Default,Neko,0000,0000,0000,,I will raise this little one!
-Dialogue: 0,0:21:57.93,0:21:59.46,Default,Koshitan,0000,0000,0000,,What are you talking about?
-Dialogue: 0,0:21:59.46,0:22:04.50,Narration,Narrator,0000,0000,0000,,The Deer Club and student council decided \Nto take responsibility and raise it together.
+Dialogue: 0,0:00:00.47,0:00:05.48,Signs_BText,Sign,0000,0000,0000,,{\fad(503,493)\pos(320,282)}This is a work of fiction. The names of the people, places, and organizations\Nare fictitious and in no way related to any real person or entity.
+Dialogue: 0,0:00:15.29,0:00:16.20,Default,Nokotan,0000,0000,0000,,A letter?
+Dialogue: 0,0:00:23.14,0:00:26.50,Default,Nokotan,0000,0000,0000,,It's finally that time of year...
+Dialogue: 0,0:00:29.78,0:00:31.21,Default,Nokotan,0000,0000,0000,,DeerColle!
+Dialogue: 0,0:00:30.05,0:00:31.76,Signs,Sign,0000,0000,0000,,{\fad(188,1)\fs20\bord2\an9\c&H0A000B&\3c&H3775B2&}Shika no Ana Presents
+Dialogue: 0,0:00:31.76,0:00:33.38,Default,Nokotan,0000,0000,0000,,So, yeah.
+Dialogue: 0,0:00:33.63,0:00:37.07,Default,Nokotan,0000,0000,0000,,I'm entering Deer Collection 2024!
+Dialogue: 0,0:00:37.07,0:00:38.01,Default,Koshitan,0000,0000,0000,,What?
+Dialogue: 0,0:02:07.98,0:02:12.98,Signs,Sign,0000,0000,0000,,{\fs30\bord1.5\fnArial Black\c&HF1AFF6&\3c&HA428CF&\pos(318.5,118.5)}DeerColle, Streaming, Hospitality, and Such
+Dialogue: 0,0:02:13.26,0:02:15.48,Default,Koshitan,0000,0000,0000,,DeerColle? What the hell is that?
+Dialogue: 0,0:02:15.48,0:02:17.11,Default,Nokotan,0000,0000,0000,,You haven't heard of DeerColle?!
+Dialogue: 0,0:02:17.41,0:02:21.88,Default,Koshitan,0000,0000,0000,,Why are you acting like it's a household name?
+Dialogue: 0,0:02:21.88,0:02:23.40,Default,Anko,0000,0000,0000,,Ah, DeerColle.
+Dialogue: 0,0:02:23.40,0:02:23.89,Default,Koshitan,0000,0000,0000,,Huh?
+Dialogue: 0,0:02:23.89,0:02:26.09,Default,Bashame,0000,0000,0000,,It's already that time of year!
+Dialogue: 0,0:02:26.09,0:02:26.87,Default,Koshitan,0000,0000,0000,,Wha?!
+Dialogue: 0,0:02:26.91,0:02:32.00,Signs,Sign,0000,0000,0000,,{\fad(278,1)\fs13\bord2\an7\c&H0A000B&\3c&H3775B2&\pos(120,21)}Shika no Ana Presents
+Dialogue: 0,0:02:26.91,0:02:32.00,Signs,Sign,0000,0000,0000,,{\fad(278,1)\bord2\fnTimes New Roman\fs18\c&H3D3A52&\3c&HC9A0E8&\pos(118.5,172)}Entry Rules
+Dialogue: 0,0:02:26.91,0:02:32.00,Signs,Sign,0000,0000,0000,,{\fad(278,1)\bord2\an7\fs12\c&H153D2E&\3c&HAEE9D4&\pos(59,192.5)}Must enter as a pair of\None owner and one deer.\NNo exceptions.\N\NMust be in good health.\N\N\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h{\fs16}That's all!
+Dialogue: 1,0:02:27.29,0:02:30.12,Default,Nokotan,0000,0000,0000,,Deer Collection, or DeerColle for short!
+Dialogue: 1,0:02:30.12,0:02:32.00,Default,Koshitan,0000,0000,0000,,This ain't Paris Fashion Week!
+Dialogue: 0,0:02:35.17,0:02:39.84,Default,Anko,0000,0000,0000,,It's a prestigious show held every four years\Nthat attracts top deer from around the world.
+Dialogue: 0,0:02:39.84,0:02:41.14,Default,Koshitan,0000,0000,0000,,They're walking like models!
+Dialogue: 0,0:02:41.14,0:02:45.04,Default,Bashame,0000,0000,0000,,To be honest, it's like a dog show for deer.
+Dialogue: 0,0:02:45.04,0:02:46.64,Default,Koshitan,0000,0000,0000,,What's {\i1}that{\i0} supposed to mean?!
+Dialogue: 0,0:02:46.64,0:02:50.78,Default,Nokotan,0000,0000,0000,,It's basically a competition to decide \Nthe most awesome deer in the world.
+Dialogue: 0,0:02:50.78,0:02:52.88,Default,Nokotan,0000,0000,0000,,There are even celebrity guests who show up.
+Dialogue: 0,0:02:52.88,0:02:57.28,Default,Koshitan,0000,0000,0000,,They're really doing a glorified dog show,\Nfor deer, like it's the Tokyo Girls Collection?
+Dialogue: 0,0:02:57.28,0:02:59.54,Default,Koshitan,0000,0000,0000,,Wait, how the heck do you \Nguys even know about this?
+Dialogue: 0,0:02:59.54,0:03:01.14,Default,Anko,0000,0000,0000,,I mean...
+Dialogue: 0,0:03:01.14,0:03:03.41,Default,Bashame,0000,0000,0000,,It's common knowledge in the deer world.
+Dialogue: 0,0:03:03.41,0:03:04.16,Default,Koshitan,0000,0000,0000,,What?!
+Dialogue: 0,0:03:04.56,0:03:06.94,Default,Koshitan,0000,0000,0000,,Well, whatever. Do what you want.
+Dialogue: 0,0:03:06.94,0:03:08.90,Default,Koshitan,0000,0000,0000,,I guess I can at least cheer you on.
+Dialogue: 0,0:03:08.90,0:03:10.78,Default,Nokotan,0000,0000,0000,,You're entering, too, Koshitan.
+Dialogue: 0,0:03:10.78,0:03:11.92,Default,Koshitan,0000,0000,0000,,What?!
+Dialogue: 0,0:03:11.92,0:03:15.42,Default,Koshitan,0000,0000,0000,,It's a {\i1}deer{\i0} show, isn't it? \NWhere do I come in?
+Dialogue: 0,0:03:15.42,0:03:20.67,Signs,Sign,0000,0000,0000,,{\bord3\fnTimes New Roman\fs26\c&H030002&\3c&HBB88E2&\pos(532.5,59)}Entry Rules
+Dialogue: 0,0:03:15.42,0:03:20.67,Signs,Sign,0000,0000,0000,,{\bord3\an7\fs15\c&H000000&\3c&H9FE5CC&\pos(464.5,177)}Must enter as a pair of\None owner and one deer.\NNo exceptions.\N\NMust be in good health.\N\N\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h{\fs20}That's all!
+Dialogue: 0,0:03:15.87,0:03:16.92,Default,Nokotan,0000,0000,0000,,Look right here.
+Dialogue: 0,0:03:16.92,0:03:20.67,Default,Nokotan,0000,0000,0000,,"Must enter as a pair of one owner \Nand one deer. No exceptions."
+Dialogue: 0,0:03:20.67,0:03:23.13,Default,Koshitan,0000,0000,0000,,When the hell did I become your owner?!
+Dialogue: 0,0:03:23.13,0:03:25.14,Default,Nokotan,0000,0000,0000,,Aren't you supposed to take care of me?
+Dialogue: 0,0:03:25.14,0:03:27.16,Default,Koshitan,0000,0000,0000,,Being your owner wasn't part of the deal!
+Dialogue: 0,0:03:27.16,0:03:29.86,Default,Nokotan,0000,0000,0000,,You deadbeat! How could you \Nabandon your dear pet?
+Dialogue: 0,0:03:29.86,0:03:31.81,Default,Koshitan,0000,0000,0000,,You're not my pet, damn it!
+Dialogue: 0,0:03:32.16,0:03:35.15,Default,Nokotan,0000,0000,0000,,No... That's so cruel, Koshitan.
+Dialogue: 0,0:03:35.15,0:03:37.64,Default,Nokotan,0000,0000,0000,,Was I just some fling for you?
+Dialogue: 0,0:03:38.12,0:03:39.07,Default,Nokotan,0000,0000,0000,,Sniffle, sniffle.
+Dialogue: 0,0:03:39.07,0:03:41.78,Default,Anko,0000,0000,0000,,In the end, you were \Nnothing more than a side deer!
+Dialogue: 0,0:03:41.78,0:03:43.95,Default,Anko,0000,0000,0000,,I'm Onee-chan's one true love.
+Dialogue: 0,0:03:43.95,0:03:44.82,Default,Koshitan,0000,0000,0000,,Yeah, no!
+Dialogue: 0,0:03:44.82,0:03:45.61,Default,Bashame,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:45.61,0:03:47.96,Default,Bashame,0000,0000,0000,,Does that mean Bashame's her one and only?
+Dialogue: 0,0:03:47.96,0:03:50.33,Default,Bashame,0000,0000,0000,,Sorry, but Bashame's not interested.
+Dialogue: 0,0:03:50.33,0:03:53.00,Default,Koshitan,0000,0000,0000,,How did this end with {\i1}me{\i0} getting dumped?!
+Dialogue: 0,0:03:53.00,0:04:11.31,Signs,Sign,0000,0000,0000,,{\fad(1,185)\fs30\b0\fnTimes New Roman\an9\c&H611FC6&\pos(346,16)}Deer Blues\N{\c&HD4E4A6&\fs24}Nokotan
+Dialogue: 0,0:03:53.00,0:04:11.31,Signs,Sign,0000,0000,0000,,{\fad(1,185)\fs20\fnVerdana\an7\b0\c&HF5E8D3&\pos(534,253)}B Side\NDeer Bossa
+Dialogue: 1,0:03:53.33,0:04:02.66,Default,Nokotan,0000,0000,0000,,Is the deer who fell in love at fault?
+Dialogue: 1,0:04:02.66,0:04:11.61,Default,Nokotan,0000,0000,0000,,Or is it the former delinquent who led her on?
+Dialogue: 0,0:04:11.61,0:04:13.01,Default,Koshitan,0000,0000,0000,,I didn't lead you on!
+Dialogue: 0,0:04:13.01,0:04:14.85,Default,Koshitan,0000,0000,0000,,And stop casually calling me \Na former delinquent!
+Dialogue: 0,0:04:14.85,0:04:18.21,Default,Anko,0000,0000,0000,,I already told Ukai-sensei \Nthat you'd be entering.
+Dialogue: 0,0:04:18.21,0:04:18.77,Default,Koshitan,0000,0000,0000,,Huh?!
+Dialogue: 0,0:04:18.77,0:04:21.05,Default,Bashame,0000,0000,0000,,I've completed an application for you, too!
+Dialogue: 0,0:04:21.05,0:04:22.15,Default,Koshitan,0000,0000,0000,,No one asked you to do that!
+Dialogue: 0,0:04:22.41,0:04:24.16,Default,Koshitan,0000,0000,0000,,I'm the damn president here!
+Dialogue: 0,0:04:24.16,0:04:26.91,Default,Koshitan,0000,0000,0000,,Are you three just embodiments \Nof pure proactivity?!
+Dialogue: 0,0:04:26.16,0:04:26.91,Signs,Sign,0000,0000,0000,,{\fs20\bord2.5\fnArial Black\c&H5237DD&\3c&HFFFFFF&\pos(110.5,18)}Embodiment B
+Dialogue: 0,0:04:26.16,0:04:26.91,Signs,Sign,0000,0000,0000,,{\fs20\bord2.5\fnArial Black\c&H5995E8&\3c&HFFFFFF&\pos(403,25)}Embodiment A
+Dialogue: 0,0:04:26.16,0:04:26.91,Signs,Sign,0000,0000,0000,,{\fs20\bord2.5\fnArial Black\c&HDD8459&\3c&HFFFFFF&\pos(532.5,22)}Embodiment C
+Dialogue: 0,0:04:27.18,0:04:29.72,Default,Nokotan,0000,0000,0000,,I guess Koshitan's just not into it.
+Dialogue: 0,0:04:29.72,0:04:31.18,Default,Koshitan,0000,0000,0000,,You bet your ass I'm not.
+Dialogue: 0,0:04:31.18,0:04:33.13,Default,Koshitan,0000,0000,0000,,I'm not falling for your bull—
+Dialogue: 0,0:04:33.13,0:04:37.04,Default,Nokotan,0000,0000,0000,,But I was so sure that \NI could win with you, Koshitan.
+Dialogue: 0,0:04:34.04,0:04:37.04,Signs,Sign,0000,0000,0000,,{\fad(192,1)\fs40\bord1.5\fnTimes New Roman\c&H131A27&\3c&HFFFFFF&}Win
+Dialogue: 0,0:04:39.17,0:04:40.88,Signs,Sign,0000,0000,0000,,{\fad(192,1)\shad2\fs40\bord2\fnArial Black\c&H52DDF2&\3c&H0C2586&\4c&H0C2586&}Win
+Dialogue: 1,0:04:39.29,0:04:44.01,Default,Nokotan,0000,0000,0000,,If we win, it'll help out your career \Nas an honor student, too.
+Dialogue: 0,0:04:41.01,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:41.09,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:41.17,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:41.26,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:41.34,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:41.42,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:41.51,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:41.59,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:41.67,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:41.76,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:41.84,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:41.92,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:42.01,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:42.09,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:42.17,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:42.26,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:42.34,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:42.42,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an7\fs20}Win
+Dialogue: 0,0:04:42.51,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:42.59,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:42.67,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:42.76,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:42.84,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:42.92,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:43.01,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:43.09,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:43.17,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:43.26,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:43.34,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:43.42,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:43.51,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:43.59,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:43.67,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:43.76,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:43.84,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 0,0:04:43.92,0:04:44.01,Signs,Sign,0000,0000,0000,,{\fad(150,1)\bord2\an9\fs20}Honor Student
+Dialogue: 1,0:04:44.01,0:04:48.64,Default,Nokotan,0000,0000,0000,,We'll be able to give the clubhouse a dramatic \Nbefore-and-after transformation, too.
+Dialogue: 0,0:04:47.22,0:04:48.64,Signs_BText,Sign,0000,0000,0000,,{\fad(150,1)\pos(186.5,72)}King-size bed for naps
+Dialogue: 0,0:04:47.22,0:04:48.64,Signs_BText,Sign,0000,0000,0000,,{\fad(150,1)\pos(383.5,118)}Chandelier
+Dialogue: 0,0:04:47.22,0:04:48.64,Signs_BText,Sign,0000,0000,0000,,{\fad(150,1)\an9\pos(610,198.5)}A garden for Manjiro and the others
+Dialogue: 0,0:04:47.22,0:04:48.64,Signs_BText,Sign,0000,0000,0000,,{\fad(150,1)\pos(442.5,266.5)}Expensive, super-comfy sofa set
+Dialogue: 0,0:04:50.72,0:04:53.96,Default,Nokotan,0000,0000,0000,,If you really don't want to do it, \NI'll just have to ask one of these two.
+Dialogue: 0,0:04:50.72,0:05:03.69,Signs,Sign,0000,0000,0000,,{\an9\fnTimes New Roman\fs16\c&H250A86&\3c&H58B4DE&\bord2\pos(434.5,72.5)}D{\3c&HF9FBFF&}e{\3c&H58B4DE&}e{\3c&HF9FBFF&}r {\3c&H58B4DE&}C{\3c&HF9FBFF&}r{\3c&H58B4DE&}a{\3c&HF9FBFF&}c{\3c&H58B4DE&}k{\3c&HF9FBFF&}e{\3c&H58B4DE&}r{\3c&HF9FBFF&}s
+Dialogue: 0,0:04:53.96,0:04:56.24,Default,Anko,0000,0000,0000,,The only pet I need is my sister.
+Dialogue: 0,0:04:56.24,0:04:58.65,Default,Bashame,0000,0000,0000,,Bashame lives to be the pet, \Nnot the other way around.
+Dialogue: 0,0:04:58.65,0:05:00.04,Default,Nokotan,0000,0000,0000,,Oh, come on! Please?
+Dialogue: 0,0:05:00.04,0:05:02.17,Default,Nokotan,0000,0000,0000,,Just for the memories!
+Dialogue: 0,0:05:02.17,0:05:03.00,Default,Koshitan,0000,0000,0000,,Hey.
+Dialogue: 0,0:05:04.22,0:05:05.61,Default,Koshitan,0000,0000,0000,,Just for the memories?
+Dialogue: 0,0:05:05.61,0:05:08.12,Default,Koshitan,0000,0000,0000,,Hah. You've gotta be more serious than that.
+Dialogue: 0,0:05:08.97,0:05:11.08,Default,Koshitan,0000,0000,0000,,We're goin' to the top!
+Dialogue: 0,0:05:11.08,0:05:12.83,Default,Nokotan,0000,0000,0000,,Koshitan!
+Dialogue: 0,0:05:12.83,0:05:18.08,Signs,Sign,0000,0000,0000,,{\fs25\bord2\fnArial Black\c&H35251F&\3c&H336CB3&\pos(320.5,116.5)}Deer Club\N{\fs15}Seeking New Club Members
+Dialogue: 0,0:05:13.83,0:05:16.76,Default,Nokotan,0000,0000,0000,,Let's train to prepare for DeerColle!
+Dialogue: 0,0:05:16.76,0:05:17.72,Default,Koshitan,0000,0000,0000,,Yeah!
+Dialogue: 0,0:05:18.08,0:05:22.68,Default,Nokotan,0000,0000,0000,,During the actual show, you'll enter \Nstage left, and I'll enter stage right.
+Dialogue: 0,0:05:22.68,0:05:25.90,Default,Nokotan,0000,0000,0000,,Then we'll walk down the runway together \Nand try to win over the judges.
+Dialogue: 0,0:05:23.34,0:05:24.01,Signs_BText,Sign,0000,0000,0000,,{\fs18\bord2\pos(363,150)}Runway
+Dialogue: 0,0:05:24.17,0:05:25.47,Signs_BText,Sign,0000,0000,0000,,{\fs18\bord2\pos(373,33)}"Judges"
+Dialogue: 0,0:05:25.90,0:05:26.92,Default,Nokotan,0000,0000,0000,,Got it?
+Dialogue: 0,0:05:26.92,0:05:27.64,Default,Koshitan,0000,0000,0000,,Yup!
+Dialogue: 0,0:05:27.64,0:05:31.98,Default,Nokotan,0000,0000,0000,,Okay, then you appear first and call me.
+Dialogue: 0,0:05:31.98,0:05:33.36,Default,Nokotan,0000,0000,0000,,Say, "To my side!"
+Dialogue: 0,0:05:33.36,0:05:35.60,Default,Koshitan,0000,0000,0000,,Huh?! No way! That's too embarrassing!
+Dialogue: 0,0:05:35.88,0:05:38.35,Default,Anko,0000,0000,0000,,You want to win, don't you, Onee-chan?
+Dialogue: 0,0:05:38.35,0:05:40.86,Default,Bashame,0000,0000,0000,,Come on. Try to win us over.
+Dialogue: 0,0:05:42.07,0:05:43.36,Default,Koshitan,0000,0000,0000,,Oh, fine.
+Dialogue: 0,0:05:45.83,0:05:46.86,Default,Koshitan,0000,0000,0000,,Um...
+Dialogue: 0,0:05:47.15,0:05:50.95,Default,Koshitan,0000,0000,0000,,Sh-Shikanoko... To my side...
+Dialogue: 0,0:05:51.62,0:05:54.91,Default,Koshitan,0000,0000,0000,,Gah! I can't see in front of me!
+Dialogue: 0,0:05:55.27,0:05:58.57,Default,Nokotan,0000,0000,0000,,You think you can actually move \Na deer's heart with words like that?!
+Dialogue: 0,0:05:59.21,0:05:59.92,Default,Koshitan,0000,0000,0000,,Who're you?!
+Dialogue: 0,0:05:59.92,0:06:04.80,Default,Nokotan,0000,0000,0000,,I'll do this just once, so watch carefully.
+Dialogue: 0,0:06:17.56,0:06:19.81,Default,Koshitan,0000,0000,0000,,Wh-What is this?
+Dialogue: 0,0:06:20.27,0:06:22.67,Default,Koshitan,0000,0000,0000,,I see it... I can see it!
+Dialogue: 0,0:06:22.67,0:06:24.94,Default,Koshitan,0000,0000,0000,,The trail we've blazed as the Deer Club!
+Dialogue: 0,0:06:34.23,0:06:36.33,Default,Koshitan,0000,0000,0000,,The hell is going on?
+Dialogue: 0,0:06:40.06,0:06:41.08,Default,Nokotan,0000,0000,0000,,Listen well.
+Dialogue: 0,0:06:41.37,0:06:45.22,Default,Nokotan,0000,0000,0000,,They'll be judging the deer's coat \Nand coloration at DeerColle, but...
+Dialogue: 0,0:06:45.22,0:06:49.30,Default,Nokotan,0000,0000,0000,,They'll be prioritizing the bond \Nbetween deer and owner!
+Dialogue: 0,0:06:50.36,0:06:54.85,Default,Nokotan,0000,0000,0000,,The atmosphere between the two, how they \Nlook at each other, the tone of their voices...
+Dialogue: 0,0:06:54.85,0:06:58.14,Default,Nokotan,0000,0000,0000,,They use their whole bodies \Nto show off their bond!
+Dialogue: 0,0:06:58.14,0:07:01.56,Default,Nokotan,0000,0000,0000,,If you can't properly express that, \Nthere is no victory!
+Dialogue: 0,0:07:03.34,0:07:06.82,DefaultItalics,Koshitan,0000,0000,0000,,Are you saying that what I just saw \Nwas an illusion created by Shikanoko?
+Dialogue: 0,0:07:07.23,0:07:10.32,DefaultItalics,Koshitan,0000,0000,0000,,She really is no ordinary deer.
+Dialogue: 0,0:07:10.61,0:07:13.70,Default,Nokotan,0000,0000,0000,,A month... No, we're gonna \Nfigure this out in a week.
+Dialogue: 0,0:07:14.13,0:07:18.45,Default,Nokotan,0000,0000,0000,,Follow me... and I'll make you \Ninto a proper owner.
+Dialogue: 0,0:07:18.45,0:07:20.08,Default,Koshitan,0000,0000,0000,,Yes, Sensei!
+Dialogue: 0,0:07:20.42,0:07:23.20,Default,Bashame,0000,0000,0000,,She really is a sucker for these \Noverly passionate developments.
+Dialogue: 0,0:07:23.20,0:07:27.09,Default,Anko,0000,0000,0000,,I mean, she did become a delinquent \Njust from reading {\i1}Shonen Magazine{\i0}.
+Dialogue: 0,0:07:27.09,0:07:32.84,Signs,Sign,0000,0000,0000,,{\fs25\bord2\fnArial Black\c&H32282D&\3c&H3B77BB&\pos(325.5,124.5)}Deer Club\N{\fs15}Seeking New Club Members
+Dialogue: 0,0:07:27.54,0:07:29.72,Narration,Narrator,0000,0000,0000,,And one week later...
+Dialogue: 0,0:07:29.72,0:07:32.84,Default,Nokotan,0000,0000,0000,,Yes! And turn! Don't forget to smile!
+Dialogue: 0,0:07:33.35,0:07:35.40,Default,Nokotan,0000,0000,0000,,Good! That's great, Koshitan!
+Dialogue: 0,0:07:35.40,0:07:38.06,Default,Nokotan,0000,0000,0000,,You're shining! I can truly feel our bond!
+Dialogue: 0,0:07:39.39,0:07:42.03,DefaultItalics,Koshitan,0000,0000,0000,,Ah... My heart feels so light.
+Dialogue: 0,0:07:42.03,0:07:45.11,DefaultItalics,Koshitan,0000,0000,0000,,It's like the embarrassment \NI felt at first never existed at all.
+Dialogue: 0,0:07:45.57,0:07:47.86,DefaultItalics,Koshitan,0000,0000,0000,,Right now, I just want the judges—
+Dialogue: 0,0:07:48.28,0:07:50.70,DefaultItalics,Koshitan,0000,0000,0000,,no, I want all of humanity to see!
+Dialogue: 0,0:07:50.70,0:07:53.70,DefaultItalics,Koshitan,0000,0000,0000,,To see the best performance we have to offer!
+Dialogue: 0,0:07:54.35,0:07:55.70,Default,Koshitan,0000,0000,0000,,Hey, come on!
+Dialogue: 0,0:07:56.19,0:07:59.70,Default,Ukai,0000,0000,0000,,Well? Is the DeerColle training going well?
+Dialogue: 0,0:08:03.56,0:08:05.71,Default,Ukai,0000,0000,0000,,U-Um...
+Dialogue: 0,0:08:07.38,0:08:10.42,Default,Koshitan,0000,0000,0000,,U-Uh, w-well... um...
+Dialogue: 0,0:08:11.35,0:08:15.82,Default,Ukai,0000,0000,0000,,I-I'm sure even an honor student like you \Nwants to let loose every once in a while!
+Dialogue: 0,0:08:15.82,0:08:18.58,Default,Ukai,0000,0000,0000,,And I think that's great! \NEveryone needs a break!
+Dialogue: 0,0:08:18.58,0:08:20.84,Default,Ukai,0000,0000,0000,,Well, good luck with your club!
+Dialogue: 0,0:08:21.62,0:08:23.96,Default,Nokotan,0000,0000,0000,,Come on, Koshitan! Let's continue, yo!
+Dialogue: 0,0:08:28.44,0:08:32.64,Narration,Narrator,0000,0000,0000,,{\an8}By the way, the DeerColle winners \Nwere Tsunoyama-san from Nara Park
+Dialogue: 0,0:08:31.03,0:08:35.49,Signs_BText,Sign,0000,0000,0000,,{\fad(481,1)\pos(238,268)}Tsunoyama-san\N(Nara Park)
+Dialogue: 0,0:08:31.03,0:08:35.49,Signs_BText,Sign,0000,0000,0000,,{\fad(481,1)\pos(366,254)}Tanabe-san\N(Deer Crackers Tanabe\NFlagship Store)
+Dialogue: 0,0:08:32.64,0:08:35.49,Narration,Narrator,0000,0000,0000,,{\an8}and Tanabe-san, the deer cracker shop owner.
+Dialogue: 0,0:08:35.49,0:08:38.99,Signs_BText,Sign,0000,0000,0000,,{\an7\fs18\pos(33.5,89.5)}Kanagawa Prefecture\NAishu Kasuga Shrine
+Dialogue: 0,0:08:38.99,0:08:42.50,Signs_BText,Sign,0000,0000,0000,,{\an7\fs18\pos(33.5,116.5)}Kanagawa Prefecture\NAishu Kasuga Shrine\NPurification Fountain
+Dialogue: 0,0:08:42.50,0:08:44.37,Signs,Sign,0000,0000,0000,,{\fs25\bord2\fnArial Black\c&H32282D&\3c&H3B77BB&\pos(294.5,106.5)}Deer Club\N{\fs15}Seeking New Club Members
+Dialogue: 0,0:08:42.89,0:08:44.37,Narration,Narrator,0000,0000,0000,,One day at the Deer Club...
+Dialogue: 0,0:08:44.37,0:08:45.62,DefaultTop,Koshitan,0000,0000,0000,,Script, check.
+Dialogue: 0,0:08:44.37,0:08:45.62,Signs,Sign,0000,0000,0000,,{\c&H0F04D8&\frz-9.28\fax-0.28\pos(359.5,69)}Top Secret
+Dialogue: 0,0:08:44.37,0:08:45.62,Signs,Sign,0000,0000,0000,,{\fs18\c&H343538&\fax-0.28\frz346.2\pos(266,253.5)}Episode 1\NScript
+Dialogue: 0,0:08:44.37,0:08:45.62,Signs,Sign,0000,0000,0000,,{\fs18\c&H343538&\fax-0.28\pos(249,292.5)\frz346.2}Deer Club     Koshi Torako
+Dialogue: 0,0:08:46.00,0:08:47.13,Default,Koshitan,0000,0000,0000,,PC, check.
+Dialogue: 0,0:08:47.13,0:08:48.75,Default,Koshitan,0000,0000,0000,,Shikanoko, check.
+Dialogue: 0,0:08:49.18,0:08:52.01,Default,Koshitan,0000,0000,0000,,Anko and Bashame are gone... check.
+Dialogue: 0,0:08:52.01,0:08:56.01,Signs,Sign,0000,0000,0000,,{\an7\fnTimes New Roman\fs16\c&H250A86&\3c&H58B4DE&\bord2\pos(382,115)}D{\3c&HF9FBFF&}e{\3c&H58B4DE&}e{\3c&HF9FBFF&}r {\3c&H58B4DE&}C{\3c&HF9FBFF&}r{\3c&H58B4DE&}a{\3c&HF9FBFF&}c{\3c&H58B4DE&}k{\3c&HF9FBFF&}e{\3c&H58B4DE&}r{\3c&HF9FBFF&}s
+Dialogue: 0,0:08:52.24,0:08:54.08,Default,Koshitan,0000,0000,0000,,Ah, aah.
+Dialogue: 0,0:08:54.08,0:08:56.01,Default,Koshitan,0000,0000,0000,,Koshitan koshi'd a nock of noko'd nokos.
+Dialogue: 0,0:08:56.01,0:08:58.76,Signs,Sign,0000,0000,0000,,{\bord3\pos(320,40)\c&H33271D&\3c&HEDA56C&}Start Streaming
+Dialogue: 0,0:08:56.50,0:08:58.27,Default,Koshitan,0000,0000,0000,,Okay, let's do this!
+Dialogue: 0,0:08:59.16,0:09:02.14,Default,Koshitan,0000,0000,0000,,Hello, everyone! This is the Deer Club Channel!
+Dialogue: 0,0:09:02.14,0:09:04.64,Signs,Sign,0000,0000,0000,,{\fs17\c&HFAFFFB&\pos(223.5,239)}[Live Stream] The Deer Club's First Stream!
+Dialogue: 0,0:09:02.14,0:09:04.64,Signs,Sign,0000,0000,0000,,{\fs17\c&HFAFFFB&\pos(188.5,300)}Deer Club Channel
+Dialogue: 0,0:09:02.49,0:09:04.64,Narration,Narrator,0000,0000,0000,,{\an8}The Deer Club started a MyTube channel.
+Dialogue: 0,0:09:04.64,0:09:09.92,Default,Koshitan,0000,0000,0000,,Starting today, we're going to livestream \Nthe activities of the Deer Club.
+Dialogue: 0,0:09:09.92,0:09:12.23,Default,Koshitan,0000,0000,0000,,Please make sure you subscribe to our channel!
+Dialogue: 0,0:09:12.84,0:09:15.28,DefaultItalics,Koshitan,0000,0000,0000,,Okay. So far, so good.
+Dialogue: 0,0:09:15.28,0:09:17.03,Signs,Sign,0000,0000,0000,,{\fnArial Black\bord2\c&H1D1C2F&\3c&HFBFEFA&\pos(148.5,19.5)}A Few Days Ago
+Dialogue: 0,0:09:15.64,0:09:17.03,Narration,Narrator,0000,0000,0000,,A few days ago...
+Dialogue: 0,0:09:17.32,0:09:18.53,Default,Koshitan,0000,0000,0000,,MyTube?
+Dialogue: 0,0:09:18.78,0:09:22.06,Default,Ukai,0000,0000,0000,,Yes. As a part of the Deer Club's activities,
+Dialogue: 0,0:09:22.06,0:09:24.76,Default,Ukai,0000,0000,0000,,why don't you try streaming \Nwhat the club is like to everyone?
+Dialogue: 0,0:09:24.76,0:09:25.54,Default,Koshitan,0000,0000,0000,,Ah...
+Dialogue: 0,0:09:25.92,0:09:28.96,Default,Ukai,0000,0000,0000,,It'll be a great experience, \Nand you'll be able to promote the Deer Club.
+Dialogue: 0,0:09:29.24,0:09:32.11,Default,Ukai,0000,0000,0000,,And most importantly, if it goes viral, \Nyou can make some extra club funds!
+Dialogue: 0,0:09:32.11,0:09:33.10,Default,Koshitan,0000,0000,0000,,Club funds!
+Dialogue: 0,0:09:33.84,0:09:37.38,Signs,Sign,0000,0000,0000,,{\bord2\fnComic Sans MS\c&H646764&\3c&HFDFFFD&}Deer Club remaining budget for the month: 108 yen!!
+Dialogue: 0,0:09:34.31,0:09:37.87,DefaultItalics,Koshitan,0000,0000,0000,,If we get more club funds, \Nwe can improve the clubhouse,
+Dialogue: 0,0:09:37.87,0:09:42.10,DefaultItalics,Koshitan,0000,0000,0000,,and any positive attention for the Deer Club \Nwill be a plus for my honor student life!
+Dialogue: 0,0:09:42.52,0:09:46.60,DefaultItalics,Koshitan,0000,0000,0000,,I need to do whatever I can \Nto make this stream a success!
+Dialogue: 0,0:09:47.09,0:09:50.36,Default,Koshitan,0000,0000,0000,,I hope you'll all leave us some comments!
+Dialogue: 0,0:09:50.85,0:09:55.36,DefaultItalics,Koshitan,0000,0000,0000,,Then again, I'm worried whether anyone will \Neven show up to some Deer Club stream...
+Dialogue: 0,0:09:55.36,0:10:01.07,Signs_Chat,Sign,0000,0000,0000,,I heard the Deer Club was streaming and came by\NI've been waiting for this!\NI've been deerly waiting for this\NDeer stream?! *Stands*\NI've been deerly waiting for this\NI've been waiting for the deer stream~\NHeard the deer were streaming\NBut will there be deer?\NI've been deerly waiting for this\NI've been deerly waiting for this\NA high school girl and... a deer?!\NI've come to see the deer\NI'm so excited~\N Onee-chan's personal deer is here!\NPreparing the rice...
+Dialogue: 0,0:09:57.00,0:09:59.23,DefaultItalics,Koshitan,0000,0000,0000,,Huh? They're showing up in droves!
+Dialogue: 0,0:09:59.23,0:10:01.07,DefaultItalics,Koshitan,0000,0000,0000,,Was there really this much of a demand?
+Dialogue: 0,0:10:01.42,0:10:03.40,Default,Koshitan,0000,0000,0000,,Th-Thank you very much!
+Dialogue: 0,0:10:03.40,0:10:07.58,Default,Koshitan,0000,0000,0000,,First off, I'd like to introduce you all \Nto the Deer Club's resident deer.
+Dialogue: 0,0:10:07.58,0:10:10.58,Signs_Chat,Sign,0000,0000,0000,,Deer!!!\NDeer! Deer! Deer!\NThere's deer?\N It's deer!\NA deer! I've never seen one before!!\NDeeeeer!!\NDeer!!\NDeer~\NOnee... Cough, cough... Deer~\NBaaah~\NVenison~\NA deer?
+Dialogue: 0,0:10:09.75,0:10:10.36,Default,Koshitan,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:10.36,0:10:12.88,Default,Koshitan,0000,0000,0000,,Er, nothing's happened yet...
+Dialogue: 0,0:10:16.99,0:10:18.59,Default,Koshitan,0000,0000,0000,,The heck are you doing?!
+Dialogue: 0,0:10:19.81,0:10:21.08,Default,Nokotan,0000,0000,0000,,I was growing closer to you.
+Dialogue: 0,0:10:21.08,0:10:22.10,Default,Koshitan,0000,0000,0000,,Why now?!
+Dialogue: 0,0:10:22.10,0:10:25.10,Signs_Chat,Sign,0000,0000,0000,,Pwecious...\NDefinitely pwecious\NCould they be more pwecious?\NI can feel the pwecious energy...\NPwecious\NPwecious~\NPwecious\NThis is pwecious\NNay! Ankoshi is the true OTP!\NRice'll be ready in 5 minutes~\NSo pwecious~
+Dialogue: 0,0:10:23.57,0:10:25.10,Default,Koshitan,0000,0000,0000,,Pwe... What now?
+Dialogue: 0,0:10:25.10,0:10:31.23,Signs,Sign,0000,0000,0000,,{\c&H12202C&\3c&HFFFFFF&\bord1.5\pos(320,28)}[Pwecious]\N\N\N\N\NPrecious, in a heartwarming way\N\N\N\N[Example Sentence]\N\N\N\N\NNokoshi is so pwecious~
+Dialogue: 0,0:10:25.44,0:10:27.65,Narration,Narrator,0000,0000,0000,,"Pwecious." Precious, in a heartwarming way.
+Dialogue: 0,0:10:27.65,0:10:31.23,Narration,Narrator,0000,0000,0000,,Example sentence: Nokoshi is so pwecious.
+Dialogue: 0,0:10:31.23,0:10:33.84,Default,Koshitan,0000,0000,0000,,Okay, please allow me to introduce myself.
+Dialogue: 0,0:10:33.84,0:10:34.61,Default,Koshitan,0000,0000,0000,,Ahem...
+Dialogue: 0,0:10:34.94,0:10:37.66,Default,Koshitan,0000,0000,0000,,I'm the president of \Nthe Deer Club, Koshi Torako!
+Dialogue: 0,0:10:37.66,0:10:39.74,Default,Koshitan,0000,0000,0000,,I mostly take care of deer.
+Dialogue: 0,0:10:40.04,0:10:42.94,Default,Koshitan,0000,0000,0000,,And this is our club's one and only deer...
+Dialogue: 0,0:10:42.94,0:10:44.24,Default,Koshitan,0000,0000,0000,,Shikanoko Noko!
+Dialogue: 0,0:10:44.69,0:10:47.00,Default,Koshitan,0000,0000,0000,,Er, huh? Shikanoko-san?
+Dialogue: 0,0:10:52.38,0:10:53.88,Default,Koshitan,0000,0000,0000,,What brought this on?!
+Dialogue: 0,0:10:54.34,0:10:55.63,Default,Nokotan,0000,0000,0000,,I'm Nokotan.
+Dialogue: 0,0:10:56.28,0:10:57.28,Default,Nokotan,0000,0000,0000,,I'm a deer.
+Dialogue: 0,0:10:59.22,0:11:00.70,Default,Koshitan,0000,0000,0000,,That's so loud!
+Dialogue: 0,0:11:00.70,0:11:03.23,Default,Koshitan,0000,0000,0000,,And your actual antler post is right there!
+Dialogue: 0,0:11:01.47,0:11:03.97,Signs,Sign,0000,0000,0000,,{\fad(149,1)\fnArial Black\bord2\c&H161F2A&\3c&HF6FAFC&\pos(180,171)}Antler post
+Dialogue: 0,0:11:03.23,0:11:04.91,Default,Koshitan,0000,0000,0000,,Stop using the wall! Are you a cat?!
+Dialogue: 0,0:11:05.24,0:11:07.97,Default,Nokotan,0000,0000,0000,,My antler got itchy all of a sudden.
+Dialogue: 0,0:11:08.30,0:11:11.98,Default,Nokotan,0000,0000,0000,,The rough texture of the concrete \Nblocks feels just right.
+Dialogue: 0,0:11:11.98,0:11:13.48,Default,Koshitan,0000,0000,0000,,Well, your timing sucks!
+Dialogue: 0,0:11:13.48,0:11:15.86,Signs_BText,Sign,0000,0000,0000,,{\q2\fnTimes New Roman\fs36\fsp6\bord2\pos(320,100)}We'll Be Right Back
+Dialogue: 0,0:11:13.48,0:11:15.86,Signs_BText,Sign,0000,0000,0000,,{\an7\bord2\fs26\pos(458,214)}The Deer Club\NChannel
+Dialogue: 0,0:11:17.09,0:11:18.43,Default,Nokotan,0000,0000,0000,,All better.
+Dialogue: 0,0:11:18.43,0:11:20.73,Default,Koshitan,0000,0000,0000,,Your antlers are all floppy now!
+Dialogue: 0,0:11:21.11,0:11:22.74,Signs_Bubbles,Sign,0000,0000,0000,,{\fad(150,1)\c&HE9EBE6&\3c&H181713&\pos(445,58)}So cute
+Dialogue: 0,0:11:21.86,0:11:22.74,Signs_Bubbles,Sign,0000,0000,0000,,{\fad(150,1)\c&HE9EBE6&\3c&H181713&\pos(436.5,234)}Healing ^^
+Dialogue: 0,0:11:21.86,0:11:22.74,Signs_Bubbles,Sign,0000,0000,0000,,{\fad(150,1)\c&HE9EBE6&\3c&H181713&\pos(106.5,144)}Animal streams are\Nalways so healing
+Dialogue: 0,0:11:22.92,0:11:24.37,Default,Koshitan,0000,0000,0000,,How, though?!
+Dialogue: 0,0:11:24.37,0:11:27.12,Signs_Bubbles,Sign,0000,0000,0000,,{\fad(150,1)\c&HE9EBE6&\3c&H181713&\pos(415,108)}The angy president\Nis healing
+Dialogue: 0,0:11:24.37,0:11:27.12,Signs_Bubbles,Sign,0000,0000,0000,,{\fad(150,1)\c&HE9EBE6&\3c&H181713&\pos(418.5,268)}The rice\Nturned out great~
+Dialogue: 0,0:11:27.46,0:11:30.73,DefaultItalics,Koshitan,0000,0000,0000,,At this rate, she's just \Ngoing to drag me down.
+Dialogue: 0,0:11:30.73,0:11:32.67,DefaultItalics,Koshitan,0000,0000,0000,,I'm not going to let her have control!
+Dialogue: 0,0:11:33.17,0:11:36.03,Default,Koshitan,0000,0000,0000,,Shikanoko-san, would you \Ntake a seat next to me?
+Dialogue: 0,0:11:37.40,0:11:40.82,Default,Koshitan,0000,0000,0000,,Okay, in the next segment, \Nwe'll explain what the Deer Club...
+Dialogue: 0,0:11:40.82,0:11:42.47,Default,Nokotan,0000,0000,0000,,Oh, deery me.
+Dialogue: 0,0:11:43.57,0:11:45.55,DefaultItalics,Koshitan,0000,0000,0000,,Her antlers... have grown.
+Dialogue: 0,0:11:45.55,0:11:50.31,Default,Koshitan,0000,0000,0000,,E-Er, uh... We'll explain \Nwhat the Deer Club does.
+Dialogue: 0,0:11:52.26,0:11:54.94,DefaultItalics,Koshitan,0000,0000,0000,,I'm getting a pigtails vibe from them now.
+Dialogue: 0,0:11:54.94,0:11:58.19,DefaultItalics,Koshitan,0000,0000,0000,,No, wait, wait! Does she somehow \Nhave even more antlers?!
+Dialogue: 0,0:11:58.62,0:12:02.32,Default,Koshitan,0000,0000,0000,,I usually brush her and give her deer crackers!
+Dialogue: 0,0:12:02.71,0:12:05.49,DefaultItalics,Koshitan,0000,0000,0000,,I'm just not used to seeing \Nthem this floppy. That's all.
+Dialogue: 0,0:12:05.49,0:12:08.14,DefaultItalics,Koshitan,0000,0000,0000,,Yeah. Everything else is my eyes \Nplaying tricks on me!
+Dialogue: 0,0:12:08.14,0:12:10.75,DefaultItalics,Koshitan,0000,0000,0000,,Anyway, I need to concentrate \Non the stream right now!
+Dialogue: 0,0:12:11.12,0:12:14.71,Default,Koshitan,0000,0000,0000,,Okay! Now I'm going to demonstrate \Nfeeding her a deer cra...
+Dialogue: 0,0:12:14.71,0:12:16.63,DefaultItalics,Koshitan,0000,0000,0000,,No, really! They've multiplied!
+Dialogue: 0,0:12:16.92,0:12:20.19,Default,Koshitan,0000,0000,0000,,Sh-Shikanoko-san! Your antlers have multiplied!
+Dialogue: 0,0:12:20.74,0:12:22.31,Default,Nokotan,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:12:23.37,0:12:25.47,Default,Koshitan,0000,0000,0000,,They just grew a crazy amount!
+Dialogue: 0,0:12:27.29,0:12:28.92,Default,Nokotan,0000,0000,0000,,So warm...
+Dialogue: 0,0:12:28.92,0:12:30.18,Default,Koshitan,0000,0000,0000,,This is no time to relax!
+Dialogue: 0,0:12:30.49,0:12:32.00,Default,Koshitan,0000,0000,0000,,What the hell's going on right now?!
+Dialogue: 0,0:12:32.00,0:12:33.69,Default,Koshitan,0000,0000,0000,,What're your antlers doing?!
+Dialogue: 0,0:12:33.69,0:12:37.90,Signs_Chat,Sign,0000,0000,0000,,They're... growing...\NI guess the way her antlers grow are unique\N One of life's great mysteries\NAntlers!!\NHer antlers have grown quite a bit\NDon't they shed this time of year?\NDeer antlers shed once a year\NA few fun facts about antlers\NGrowy grow~\NI've never seen antlers grow before\NDeer! Antlers! Deer!\NI guess taking care of deer can be rough\NOnee-chan's so panicked... Best president\NNom, nom, 88 times nom, nom
+Dialogue: 0,0:12:36.26,0:12:37.90,Default,Koshitan,0000,0000,0000,,The comments are surprisingly calm!
+Dialogue: 0,0:12:37.90,0:12:41.68,Default,Nokotan,0000,0000,0000,,Hm... I'm suddenly hungry.
+Dialogue: 0,0:12:41.68,0:12:44.35,Default,Nokotan,0000,0000,0000,,I sure would love some deer crackers...
+Dialogue: 0,0:12:45.78,0:12:47.91,Signs,Sign,0000,0000,0000,,{\bord2\fnTimes New Roman\c&H3B3B3B&\3c&HF4F5F3&}Deer Crackers
+Dialogue: 0,0:12:48.57,0:12:50.71,Default,Nokotan,0000,0000,0000,,Oh? You got me some?
+Dialogue: 0,0:12:52.71,0:12:54.64,Default,Nokotan,0000,0000,0000,,Let's eat!
+Dialogue: 0,0:12:55.04,0:12:58.04,Default,Koshitan,0000,0000,0000,,Now your antlers have a will of their own!
+Dialogue: 0,0:13:08.04,0:13:09.97,Default,Koshitan,0000,0000,0000,,The deer crackers only made it worse!
+Dialogue: 0,0:13:10.24,0:13:12.57,DefaultItalics,Koshitan,0000,0000,0000,,This stream totally backfired!
+Dialogue: 0,0:13:12.57,0:13:16.27,DefaultItalics,Koshitan,0000,0000,0000,,At this rate, I can kiss both our club funds \Nand my honor student life goodbye!
+Dialogue: 0,0:13:16.77,0:13:18.36,DefaultItalics,Koshitan,0000,0000,0000,,What do I do?
+Dialogue: 0,0:13:19.73,0:13:25.57,Signs_Chat,Sign,0000,0000,0000,,Deer antlers are intense\N\NI heard that at Nara Park,\Nthe rangers cut their antlers once a year\N\NThey just keep growing!\N\NMy screen's just filled with antlers...
+Dialogue: 0,0:13:19.97,0:13:24.53,DefaultItalics,Koshitan,0000,0000,0000,,"I heard that at Nara Park, \Nthe rangers cut their antlers once a year."
+Dialogue: 0,0:13:24.53,0:13:25.57,DefaultItalics,Koshitan,0000,0000,0000,,That's it!
+Dialogue: 0,0:13:25.57,0:13:30.37,Signs,Sign,0000,0000,0000,,{\fs16\bord2\fnTimes New Roman\c&H3B3B3B&\3c&HF4F5F3&\pos(407.5,12)}Deer Crackers
+Dialogue: 0,0:13:25.90,0:13:30.37,Default,Nokotan,0000,0000,0000,,Man... I'm still so hungry, \Nno matter how much I eat.
+Dialogue: 0,0:13:30.37,0:13:31.78,Default,Koshitan,0000,0000,0000,,Shikanoko-san!
+Dialogue: 0,0:13:34.92,0:13:37.37,Default,Koshitan,0000,0000,0000,,Don't hate me for this.
+Dialogue: 0,0:13:38.90,0:13:39.61,Default,Koshitan,0000,0000,0000,,Hup!
+Dialogue: 0,0:13:40.54,0:13:42.79,DefaultItalics,Koshitan,0000,0000,0000,,I'm the only one...
+Dialogue: 0,0:13:43.30,0:13:45.30,DefaultItalics,Koshitan,0000,0000,0000,,who can stop her right now!
+Dialogue: 0,0:13:49.40,0:13:50.43,Default,Nokotan,0000,0000,0000,,Koshitan?
+Dialogue: 0,0:13:50.43,0:13:52.68,DefaultItalics,Koshitan,0000,0000,0000,,For the sake of the Deer Club's funds...
+Dialogue: 0,0:13:52.68,0:13:55.18,DefaultItalics,Koshitan,0000,0000,0000,,I need to cut this off at the source!
+Dialogue: 0,0:13:58.73,0:13:59.48,Default,Koshitan,0000,0000,0000,,What?
+Dialogue: 0,0:14:03.44,0:14:08.07,Default,Nokotan,0000,0000,0000,,Oh, my antlers finally fell off. \NI was thinking it was about time.
+Dialogue: 0,0:14:09.32,0:14:11.70,Signs_Bubbles,Sign,0000,0000,0000,,{\fad(150,1)\fs16\c&HE9EBE6&\3c&H181713&\pos(444,82)}They fall off once they\Ngrow enough
+Dialogue: 0,0:14:09.82,0:14:11.70,Signs_Bubbles,Sign,0000,0000,0000,,{\fad(150,1)\fs16\c&HE9EBE6&\3c&H181713&\pos(455.5,276)}Deer antlers naturally\Nfall off even if you don't\Ncut them
+Dialogue: 0,0:14:10.45,0:14:11.70,Signs_Bubbles,Sign,0000,0000,0000,,{\fad(150,1)\fs16\c&HE9EBE6&\3c&H181713&\pos(86,316)}Where'd that saw come from?!
+Dialogue: 0,0:14:12.19,0:14:15.06,Default,Nokotan,0000,0000,0000,,Who knew it'd happen during the stream?
+Dialogue: 0,0:14:15.99,0:14:17.21,Default,Koshitan,0000,0000,0000,,What the hell?
+Dialogue: 0,0:14:17.21,0:14:33.43,Signs_Chat,Sign,0000,0000,0000,,I'm so happy I got to see something so rare!\NI'm glad her antlers came off nicely!\NGreat job, Prez!\NTaking care of deer is rough\NYou were so cool, Onee-chan. Even when you totally whiffed\NBashame is totally full now~\N
+Dialogue: 0,0:14:17.57,0:14:21.14,DefaultItalics,Anko,0000,0000,0000,,You were so cool, Onee-chan. \NEven when you totally whiffed.
+Dialogue: 0,0:14:21.14,0:14:23.92,DefaultItalics,Bashame,0000,0000,0000,,Bashame is totally full now.
+Dialogue: 0,0:14:23.92,0:14:26.60,Default,Koshitan,0000,0000,0000,,Wait, those comments are \Nfrom Anko and Bashame?!
+Dialogue: 0,0:14:26.60,0:14:28.30,Default,Koshitan,0000,0000,0000,,How long have you been watching?!
+Dialogue: 0,0:14:28.22,0:14:33.43,Signs_Chat,Sign,0000,0000,0000,,{\fad(150,1)}Since the start
+Dialogue: 0,0:14:28.30,0:14:29.41,Default,Anko,0000,0000,0000,,Since the start.
+Dialogue: 0,0:14:29.41,0:14:31.40,Default,Koshitan,0000,0000,0000,,Wait... really?
+Dialogue: 0,0:14:31.22,0:14:33.43,Signs_Chat,Sign,0000,0000,0000,,{\fad(150,1)}Yup, really~
+Dialogue: 0,0:14:31.40,0:14:32.90,Default,Bashame,0000,0000,0000,,Yup, really.
+Dialogue: 0,0:14:33.81,0:14:37.35,Default,Koshitan,0000,0000,0000,,I'm never... I'm never...
+Dialogue: 0,0:14:37.35,0:14:40.18,Default,Koshitan,0000,0000,0000,,I'm never streaming again! You hear me?!
+Dialogue: 0,0:14:38.60,0:14:43.57,Signs_BText,Sign,0000,0000,0000,,{\fad(1070,1)\fs24\bord1.5\pos(316.5,67.5)}Tanabe Channel
+Dialogue: 0,0:14:38.60,0:14:43.57,Signs_BText,Sign,0000,0000,0000,,{\fad(1070,1)\fs24\bord1.5\pos(308,275)}Streaming now to rave reviews
+Dialogue: 0,0:14:40.18,0:14:43.57,Narration,Narrator,0000,0000,0000,,{\an8}So Koshitan vowed from the bottom of her heart.
+Dialogue: 0,0:14:43.57,0:14:47.53,Signs_Chat,Sign,0000,0000,0000,,{\fad(1,144)\pos(613.5,91)}There it is!!!\NGod-tier episode\NWaiting with all my heart\NReportable\NHoly...
+Dialogue: 0,0:14:43.57,0:14:47.53,Signs,Sign,0000,0000,0000,,{\fad(1,144)\bord2\c&HFEFFFD&\3c&H7D6DE7&\pos(235,190.5)}Deer Club first stream archive
+Dialogue: 0,0:14:43.57,0:14:47.53,Signs,Sign,0000,0000,0000,,{\fad(1,144)\fs18\pos(222.5,241)}[Live Stream] The Deer Club's First Stream!
+Dialogue: 0,0:14:43.57,0:14:47.53,Signs,Sign,0000,0000,0000,,{\fad(1,144)\fs16\pos(375.5,306.5)}10000000 views
+Dialogue: 0,0:14:43.57,0:14:47.53,Signs,Sign,0000,0000,0000,,{\fad(1,144)\fs18\pos(188,301)}Deer Club Channel
+Dialogue: 1,0:14:44.15,0:14:47.52,Narration,Narrator,0000,0000,0000,,{\an8}Later on, the video went viral, \Nand their club funds rose somewhat.
+Dialogue: 0,0:14:47.52,0:14:48.57,DefaultTop,Koshitan,0000,0000,0000,,Why, though?!
+Dialogue: 0,0:14:48.57,0:14:51.57,Signs_BText,Sign,0000,0000,0000,,{\an7\fs18\pos(28.5,92.5)}Kanagawa Prefecture\NAishu Kasuga Shrine
+Dialogue: 0,0:14:52.41,0:14:54.33,Narration,Narrator,0000,0000,0000,,This is Café Sparrow.
+Dialogue: 0,0:14:54.33,0:14:56.70,Narration,Narrator,0000,0000,0000,,A place where the citizens of Hino can relax.
+Dialogue: 0,0:14:54.33,0:14:56.70,Signs,Sign,0000,0000,0000,,{\fs30\fnArial Black\c&H7D828D&\pos(320,16)}Café Sparrow
+Dialogue: 0,0:15:00.85,0:15:03.50,DefaultItalics,Yoshiharu,0000,0000,0000,,Life is about presenting \Nthe perfect hospitality.
+Dialogue: 0,0:15:04.74,0:15:11.06,DefaultItalics,Yoshiharu,0000,0000,0000,,Those are the words that I, Tsubameya \NYoshiharu, the owner of Café Sparrow, live by.
+Dialogue: 0,0:15:10.72,0:15:17.22,Signs,Sign,0000,0000,0000,,{\fad(1524,1472)\bord2\c&H324B50&\3c&HBFD9DE&\fs12\move(512,175,431,175,23,6487)}Breakfast Set
+Dialogue: 0,0:15:12.62,0:15:16.00,DefaultItalics,Yoshiharu,0000,0000,0000,,My perfect hospitality, said to be fit for a god,
+Dialogue: 0,0:15:15.76,0:15:21.60,Signs,Sign,0000,0000,0000,,{\fad(1489,1515)\fs22\fnArial Black\c&H382C40&\3c&HC3B6A1&\frz344.3\fax0.25\move(243,33,308.5,33,29,5827)}Café Sparrow
+Dialogue: 0,0:15:16.44,0:15:20.38,DefaultItalics,Yoshiharu,0000,0000,0000,,has brought my café some small fame in Hino.
+Dialogue: 0,0:15:21.85,0:15:25.90,DefaultItalics,Yoshiharu,0000,0000,0000,,Though none of that really matters to me.
+Dialogue: 0,0:15:26.37,0:15:28.60,Default,Yoshiharu,0000,0000,0000,,Yes, that smells great.
+Dialogue: 0,0:15:28.74,0:15:35.12,Signs,Sign,0000,0000,0000,,{\fad(1480,1)\bord2\an7\fs10\c&HC1D9E7&\3c&H01122B&\pos(30,10)}For Those Who Want to Learn Everything about Hino\N{\fs40\fnTimes New Roman\c&H050100&\3c&HC1D9E7&}Hino-Zin
+Dialogue: 0,0:15:28.74,0:15:35.12,Signs,Sign,0000,0000,0000,,{\fad(1480,1)\bord2\an7\fs14\c&HC1D9E7&\3c&H01122B&\pos(30,69)}Interview with the Owner of Café Sparrow\NTsubameya Yoshiharu
+Dialogue: 0,0:15:28.74,0:15:35.12,Signs,Sign,0000,0000,0000,,{\fad(1480,1)\bord2\an9\fs14\c&H45BECF&\3c&H01122B&\pos(181.5,113.5)}In Search of Good Coffee\N{\fnTimes New Roman\c&H050100&\3c&HC1D9E7&\fs20}Café Feature
+Dialogue: 0,0:15:30.12,0:15:35.12,DefaultItalics,Yoshiharu,0000,0000,0000,,Whether I become famous or not, \Nthe policy I live by will never change.
+Dialogue: 0,0:15:37.66,0:15:40.25,DefaultItalics,Yoshiharu,0000,0000,0000,,Time to present my perfect hospitality \Nonce again today!
+Dialogue: 0,0:15:40.53,0:15:41.75,Default,Koshitan,0000,0000,0000,,Hello.
+Dialogue: 0,0:15:42.09,0:15:43.30,Default,Yoshiharu,0000,0000,0000,,Come on in!
+Dialogue: 0,0:15:44.09,0:15:46.12,DefaultItalics,Yoshiharu,0000,0000,0000,,So my customer is a high school girl.
+Dialogue: 0,0:15:46.62,0:15:50.13,DefaultItalics,Yoshiharu,0000,0000,0000,,I will show you my ultimate hospitality!
+Dialogue: 0,0:15:52.59,0:15:54.76,Signs,Sign,0000,0000,0000,,{\bord2.5\fs20\an9\c&HBFD5DF&\3c&H162C36&}Playlists | Artists | Albums\NAnisongs - Heisei\NReggae\NHealing Music\N{\t(1863,1905,\c&H6287A3&)}High School Girl J-POP\N{\c&HBFD5DF&\3c&H162C36&}College Girl City Pop
+Dialogue: 0,0:16:01.48,0:16:03.46,Default,Nokotan,0000,0000,0000,,Oops, I did it again.
+Dialogue: 0,0:16:03.46,0:16:04.73,Default,Koshitan,0000,0000,0000,,Be careful.
+Dialogue: 0,0:16:04.73,0:16:06.97,DefaultItalics,Yoshiharu,0000,0000,0000,,Huh?! What just got caught on the doorframe?
+Dialogue: 0,0:16:06.97,0:16:08.23,DefaultItalics,Yoshiharu,0000,0000,0000,,Antlers? But how?!
+Dialogue: 0,0:16:11.19,0:16:13.90,Default,Nokotan,0000,0000,0000,,That door sure makes it hard for deer to enter.
+Dialogue: 0,0:16:13.90,0:16:14.73,Default,Yoshiharu,0000,0000,0000,,A deer?!
+Dialogue: 0,0:16:14.73,0:16:16.20,DefaultItalics,Yoshiharu,0000,0000,0000,,Why is there a deer in Hino?!
+Dialogue: 0,0:16:16.20,0:16:18.74,Narration,Narrator,0000,0000,0000,,Oh? Did we finally encounter a normal person?
+Dialogue: 0,0:16:16.74,0:16:18.74,Signs_BText,Sign,0000,0000,0000,,{\fs20\bord1.5\pos(311,14)}Normal Person
+Dialogue: 0,0:16:16.74,0:16:18.74,Signs_BText,Sign,0000,0000,0000,,{\fnArial Black\fs24\bord1.5\pos(341,268.5)}Deer
+Dialogue: 0,0:16:19.95,0:16:24.71,DefaultItalics,Yoshiharu,0000,0000,0000,,Come to think of it, my beloved little sister\Nhas been collecting deer merchandise of late.
+Dialogue: 0,0:16:25.17,0:16:28.61,DefaultItalics,Yoshiharu,0000,0000,0000,,Does that mean deer are popular?! \NHere?! In Hino?!
+Dialogue: 0,0:16:28.61,0:16:31.21,DefaultItalics,Yoshiharu,0000,0000,0000,,Then of course one would visit the café!
+Dialogue: 0,0:16:31.21,0:16:33.59,Narration,Narrator,0000,0000,0000,,{\an8}Never mind. He's not normal at all.
+Dialogue: 0,0:16:31.21,0:16:33.59,Signs,Sign,0000,0000,0000,,{\fad(238,1)\fs30\fnArial Black\pos(489,263.5)\c&H172025&\3c&HFFFFFF&\bord1.5\shad2\4a&H99&}Not Normal
+Dialogue: 0,0:16:33.59,0:16:35.54,DefaultItalics,Yoshiharu,0000,0000,0000,,No matter. Be they human or deer,
+Dialogue: 0,0:16:35.54,0:16:38.27,DefaultItalics,Yoshiharu,0000,0000,0000,,I will present everyone \Nthe perfect hospitality.
+Dialogue: 0,0:16:42.98,0:16:45.73,DefaultItalics,Yoshiharu,0000,0000,0000,,I swear it on the name of Tsubameya Yoshiharu!
+Dialogue: 0,0:16:45.98,0:16:48.11,Default,Koshitan,0000,0000,0000,,Wow, what a lovely café.
+Dialogue: 0,0:16:48.37,0:16:52.09,Default,Koshitan,0000,0000,0000,,You have so many varieties of coffee. \NThat's so impressive.
+Dialogue: 0,0:16:52.09,0:16:54.97,Default,Yoshiharu,0000,0000,0000,,In order to make all kinds of customers happy,
+Dialogue: 0,0:16:54.97,0:16:57.61,Default,Yoshiharu,0000,0000,0000,,I have personally selected a variety of beans.
+Dialogue: 0,0:16:57.61,0:17:00.49,Default,Yoshiharu,0000,0000,0000,,I even have the proper equipment \Nfor each kind of roast.
+Dialogue: 0,0:17:01.89,0:17:03.87,DefaultItalics,Yoshiharu,0000,0000,0000,,Looks like she's satisfied.
+Dialogue: 0,0:17:04.35,0:17:05.87,Default,Yoshiharu,0000,0000,0000,,Please have a seat over here.
+Dialogue: 0,0:17:06.20,0:17:07.67,Default,Yoshiharu,0000,0000,0000,,Pardon my reach.
+Dialogue: 0,0:17:07.67,0:17:09.29,Default,Koshitan,0000,0000,0000,,Thank you very much.
+Dialogue: 0,0:17:09.57,0:17:12.85,DefaultItalics,Yoshiharu,0000,0000,0000,,I've prepared the perfect water \Nand hand towels, too.
+Dialogue: 0,0:17:12.85,0:17:15.00,DefaultItalics,Yoshiharu,0000,0000,0000,,It's only fitting of my perfect hospitality...
+Dialogue: 0,0:17:15.00,0:17:15.68,DefaultItalics,Yoshiharu,0000,0000,0000,,Hm?
+Dialogue: 0,0:17:18.58,0:17:21.33,DefaultItalics,Yoshiharu,0000,0000,0000,,She's looking for something?
+Dialogue: 0,0:17:21.33,0:17:23.37,DefaultItalics,Yoshiharu,0000,0000,0000,,Could there be something I forgot to serve?
+Dialogue: 0,0:17:23.37,0:17:25.85,DefaultItalics,Yoshiharu,0000,0000,0000,,No. My preparations were no less than perfect.
+Dialogue: 0,0:17:28.14,0:17:29.81,DefaultItalics,Yoshiharu,0000,0000,0000,,But those eyes!
+Dialogue: 0,0:17:29.81,0:17:31.98,DefaultItalics,Yoshiharu,0000,0000,0000,,What am I lacking?
+Dialogue: 0,0:17:31.98,0:17:32.98,Default,Yoshiharu,0000,0000,0000,,Um...
+Dialogue: 0,0:17:33.38,0:17:34.78,Default,Nokotan,0000,0000,0000,,Could I get an antler rest?
+Dialogue: 0,0:17:34.78,0:17:37.77,DefaultItalics,Yoshiharu,0000,0000,0000,,Huh? What's an antler rest?
+Dialogue: 0,0:17:38.37,0:17:40.90,Default,Yoshiharu,0000,0000,0000,,An... antler rest?
+Dialogue: 0,0:17:40.90,0:17:41.99,Default,Nokotan,0000,0000,0000,,Yes, an antler rest.
+Dialogue: 0,0:17:45.16,0:17:46.77,Default,Nokotan,0000,0000,0000,,Could I get an antler rest?
+Dialogue: 0,0:17:46.77,0:17:50.52,DefaultItalics,Yoshiharu,0000,0000,0000,,They come off?! Actually, a lot more than \NI anticipated came with them! Are you okay?!
+Dialogue: 0,0:17:50.52,0:17:54.76,Default,Koshitan,0000,0000,0000,,Er, Shikanoko-san. \NCafés don't have antler rests.
+Dialogue: 0,0:17:55.97,0:17:57.84,Narration,Narrator,0000,0000,0000,,They have one in the clubhouse, though.
+Dialogue: 0,0:17:56.76,0:17:57.84,Signs_Bubbles,Sign,0000,0000,0000,,{\fad(190,1)\pos(429.5,20)}This thing
+Dialogue: 0,0:17:57.84,0:18:00.35,Default,Yoshiharu,0000,0000,0000,,I-I'm terribly sorry...
+Dialogue: 0,0:18:01.41,0:18:04.36,DefaultItalics,Yoshiharu,0000,0000,0000,,I wasn't able to provide \Nwhat a customer wanted!
+Dialogue: 0,0:18:04.36,0:18:07.14,DefaultItalics,Yoshiharu,0000,0000,0000,,This is my, Tsubameya Yoshiharu's, \Ngreatest blunder!
+Dialogue: 0,0:18:07.80,0:18:10.34,DefaultItalics,Yoshiharu,0000,0000,0000,,No... There's no time to be depressed.
+Dialogue: 0,0:18:10.34,0:18:11.82,DefaultItalics,Yoshiharu,0000,0000,0000,,I'm just getting started.
+Dialogue: 0,0:18:12.38,0:18:14.04,Default,Yoshiharu,0000,0000,0000,,Here's the menu.
+Dialogue: 0,0:18:14.04,0:18:16.32,Default,Koshitan,0000,0000,0000,,Wow, there's so much to choose from!
+Dialogue: 0,0:18:16.32,0:18:21.95,Signs,Sign,0000,0000,0000,,{\bord3\an7\fs16\c&H162B34&\3c&HCFE6ED&\pos(30,10)}Special Blend Coffee\NLight Roast Coffee\NVienna Coffee\N Café au lait\NCappuccino{\fs12}\N\N*Refills available at half price\N\N{\fs16}Iced Tea\NOrange Juice\NSoda Float
+Dialogue: 0,0:18:16.32,0:18:21.95,Signs,Sign,0000,0000,0000,,{\bord3\an9\fs16\c&H162B34&\3c&HCFE6ED&\pos(220,10)}500\N500\N530\N550\N530{\fs12}\N\N\h\N\N{\fs16}550\N520\N520
+Dialogue: 0,0:18:16.32,0:18:21.95,Signs,Sign,0000,0000,0000,,{\bord3\an9\fs16\c&H162B34&\3c&HCFE6ED&\pos(610,10)}Banana Parfait\NPudding Parfait\NMelon Parfait\NStrawberry Parfait\N\NPancakes\N\N\N{\fs20\3c&H80B7CB&}Toast\N{\fs16\3c&HCFE6ED&}Thick-cut Toast (Margarine)\NRed Bean Paste & Butter Toast
+Dialogue: 0,0:18:16.76,0:18:21.95,Default,Yoshiharu,0000,0000,0000,,It's so I can fulfill every customer's request.
+Dialogue: 0,0:18:21.95,0:18:24.37,Default,Koshitan,0000,0000,0000,,They all look so good that \NI don't know what to choose.
+Dialogue: 0,0:18:24.72,0:18:27.87,DefaultItalics,Yoshiharu,0000,0000,0000,,I'm sure this will also make \Nthe antlered customer happy.
+Dialogue: 0,0:18:30.68,0:18:33.38,DefaultItalics,Yoshiharu,0000,0000,0000,,She looks like she's not interested at all!
+Dialogue: 0,0:18:33.66,0:18:36.30,DefaultItalics,Yoshiharu,0000,0000,0000,,Don't tell me our menu doesn't \Nhave what she's looking for!
+Dialogue: 0,0:18:36.30,0:18:37.74,DefaultItalics,Yoshiharu,0000,0000,0000,,No, that's impossible!
+Dialogue: 0,0:18:37.74,0:18:39.51,DefaultItalics,Yoshiharu,0000,0000,0000,,In order to fulfill all kinds of requests,
+Dialogue: 0,0:18:39.51,0:18:43.01,DefaultItalics,Yoshiharu,0000,0000,0000,,our menu features items \Nfrom all around the world!
+Dialogue: 0,0:18:43.29,0:18:44.19,Default,Nokotan,0000,0000,0000,,Excuse me...
+Dialogue: 0,0:18:44.19,0:18:44.88,Default,Yoshiharu,0000,0000,0000,,Yes?
+Dialogue: 0,0:18:45.27,0:18:47.60,Default,Nokotan,0000,0000,0000,,Do you have deer crackers?
+Dialogue: 0,0:18:48.03,0:18:49.37,DefaultItalics,Yoshiharu,0000,0000,0000,,Deer crackers?
+Dialogue: 0,0:18:50.43,0:18:54.36,Default,Yoshiharu,0000,0000,0000,,Deer crackers...? \NUm... You mean the ones that deer eat?
+Dialogue: 0,0:18:55.95,0:19:00.61,Default,Yoshiharu,0000,0000,0000,,Er, uh... Um, well...
+Dialogue: 0,0:19:02.75,0:19:03.74,Default,Yoshiharu,0000,0000,0000,,I...
+Dialogue: 0,0:19:05.74,0:19:07.44,Default,Yoshiharu,0000,0000,0000,,I...
+Dialogue: 0,0:19:08.62,0:19:11.12,Default,Yoshiharu,0000,0000,0000,,I... cannot fulfill that order.
+Dialogue: 0,0:19:11.46,0:19:12.88,Default,Nokotan,0000,0000,0000,,I see.
+Dialogue: 0,0:19:12.88,0:19:14.63,Default,Yoshiharu,0000,0000,0000,,I'm terribly sorry.
+Dialogue: 0,0:19:14.63,0:19:16.50,Default,Nokotan,0000,0000,0000,,Then I'll take a strawberry parfait.
+Dialogue: 0,0:19:16.77,0:19:20.01,Default,Koshitan,0000,0000,0000,,I'll have some pancakes \Nand some light-roast coffee.
+Dialogue: 0,0:19:20.30,0:19:22.43,Default,Yoshiharu,0000,0000,0000,,Yes... Coming right up.
+Dialogue: 0,0:19:25.69,0:19:28.13,DefaultItalics,Yoshiharu,0000,0000,0000,,Why the hell would I have deer crackers?!
+Dialogue: 0,0:19:28.13,0:19:30.27,DefaultItalics,Yoshiharu,0000,0000,0000,,Why are there deer in Hino anyway?!
+Dialogue: 0,0:19:30.90,0:19:34.02,DefaultItalics,Yoshiharu,0000,0000,0000,,That's right! Deer are in right now! In Hino!
+Dialogue: 0,0:19:34.35,0:19:38.11,DefaultItalics,Yoshiharu,0000,0000,0000,,At this rate, it'll all be over before \NI can give her the perfect hospitality.
+Dialogue: 0,0:19:38.11,0:19:41.28,DefaultItalics,Yoshiharu,0000,0000,0000,,How can I even be hospitable to deer?!
+Dialogue: 0,0:19:41.56,0:19:42.28,DefaultItalics,Yoshiharu,0000,0000,0000,,No.
+Dialogue: 0,0:19:42.53,0:19:44.78,DefaultItalics,Yoshiharu,0000,0000,0000,,Calm down, Tsubameya Yoshiharu.
+Dialogue: 0,0:19:44.78,0:19:46.97,DefaultItalics,Yoshiharu,0000,0000,0000,,Calm down and think clearly.
+Dialogue: 0,0:19:48.32,0:19:51.31,DefaultItalics,Yoshiharu,0000,0000,0000,,She may be a deer, but this customer \Nis still a high school girl.
+Dialogue: 0,0:19:51.31,0:19:53.40,DefaultItalics,Yoshiharu,0000,0000,0000,,She should still be a sucker for cute things.
+Dialogue: 0,0:19:53.40,0:19:55.84,DefaultItalics,Yoshiharu,0000,0000,0000,,And the best answer given that is...
+Dialogue: 0,0:19:56.67,0:19:57.81,DefaultItalics,Yoshiharu,0000,0000,0000,,This!
+Dialogue: 0,0:20:01.21,0:20:02.61,Default,Yoshiharu,0000,0000,0000,,Thank you for waiting.
+Dialogue: 0,0:20:02.61,0:20:05.74,Default,Yoshiharu,0000,0000,0000,,Here's your strawberry parfait, \Npancakes, and light-roast coffee.
+Dialogue: 0,0:20:05.74,0:20:07.58,Default,Koshitan,0000,0000,0000,,Wow, it's so cute!
+Dialogue: 0,0:20:07.58,0:20:09.06,Default,Yoshiharu,0000,0000,0000,,Thank you very much.
+Dialogue: 0,0:20:09.32,0:20:11.10,DefaultItalics,Yoshiharu,0000,0000,0000,,You bet it is!
+Dialogue: 0,0:20:11.10,0:20:13.87,DefaultItalics,Yoshiharu,0000,0000,0000,,Now the deer high school girl's \Ndefinitely going to be happy!
+Dialogue: 0,0:20:13.87,0:20:15.31,Default,Nokotan,0000,0000,0000,,Postworthy!
+Dialogue: 0,0:20:15.94,0:20:17.86,Default,Yoshiharu,0000,0000,0000,,If you'd like, I can take a pic—
+Dialogue: 0,0:20:20.74,0:20:22.24,Default,Nokotan,0000,0000,0000,,I'm just gonna dig right in.
+Dialogue: 0,0:20:24.20,0:20:26.45,DefaultItalics,Yoshiharu,0000,0000,0000,,But why?!
+Dialogue: 0,0:20:28.93,0:20:30.95,Default,Nokotan and Koshitan,0000,0000,0000,,Thanks for the food!
+Dialogue: 0,0:20:31.78,0:20:36.09,Default,Yoshiharu,0000,0000,0000,,The pancakes and the coffee... \Nwill be 2,000 yen.
+Dialogue: 0,0:20:36.09,0:20:36.96,Default,Koshitan,0000,0000,0000,,Sorry?
+Dialogue: 0,0:20:37.32,0:20:41.98,Default,Yoshiharu,0000,0000,0000,,The strawberry parfait... will be 1,500 yen.
+Dialogue: 0,0:20:41.98,0:20:44.59,Default,Koshitan,0000,0000,0000,,He seems way older than when we first got here.
+Dialogue: 0,0:20:44.59,0:20:51.47,DefaultItalics,Yoshiharu,0000,0000,0000,,In the end... I was not able to give the deer \Nhigh school girl the perfect hospitality.
+Dialogue: 0,0:20:53.63,0:20:56.86,DefaultItalics,Yoshiharu,0000,0000,0000,,I'm not fit to run this café.
+Dialogue: 0,0:20:56.86,0:20:59.53,Default,Nokotan,0000,0000,0000,,I think you're trying too hard.
+Dialogue: 0,0:20:59.86,0:21:00.86,Default,Yoshiharu,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:01.32,0:21:04.11,Default,Nokotan,0000,0000,0000,,Relax your shoulders a bit.
+Dialogue: 0,0:21:04.41,0:21:06.88,Default,Nokotan,0000,0000,0000,,Even if you've messed up,
+Dialogue: 0,0:21:07.66,0:21:10.59,Default,Nokotan,0000,0000,0000,,if you can sincerely face the deer \Nthat's right in front of you,
+Dialogue: 0,0:21:10.59,0:21:13.37,Default,Nokotan,0000,0000,0000,,isn't that, in itself, the perfect hospitality?
+Dialogue: 0,0:21:15.44,0:21:17.58,Default,Nokotan,0000,0000,0000,,Those are just the mere \Nramblings of a deer, though.
+Dialogue: 0,0:21:18.21,0:21:19.72,Default,Nokotan,0000,0000,0000,,Thank you for the meal.
+Dialogue: 0,0:21:22.67,0:21:24.39,DefaultItalics,Yoshiharu,0000,0000,0000,,She's right.
+Dialogue: 0,0:21:24.76,0:21:28.90,DefaultItalics,Yoshiharu,0000,0000,0000,,Just because she's a high school girl, \NI tried to force J-pop and cute things onto her
+Dialogue: 0,0:21:28.90,0:21:32.20,DefaultItalics,Yoshiharu,0000,0000,0000,,instead of offering her {\i0}true{\i1} hospitality.
+Dialogue: 0,0:21:33.26,0:21:35.14,DefaultItalics,Yoshiharu,0000,0000,0000,,I can't let it end this way!
+Dialogue: 0,0:21:36.51,0:21:37.40,Default,Yoshiharu,0000,0000,0000,,Please wait!
+Dialogue: 0,0:21:37.96,0:21:38.76,Default,Koshitan,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:40.09,0:21:44.85,Default,Yoshiharu,0000,0000,0000,,Next time... I'll prepare the most \Nexquisite deer crackers for you...
+Dialogue: 0,0:21:44.85,0:21:47.08,Default,Yoshiharu,0000,0000,0000,,so I'll be waiting for your return.
+Dialogue: 0,0:21:49.18,0:21:50.91,Default,Nokotan,0000,0000,0000,,I look forward to it.
+Dialogue: 0,0:21:53.69,0:21:55.79,DefaultItalics,Koshitan,0000,0000,0000,,What's with this weird vibe?
+Dialogue: 0,0:21:56.69,0:22:01.60,Narration,Narrator,0000,0000,0000,,Koshitan, having no idea how to react to either \Nof the two moods she was caught between,
+Dialogue: 0,0:22:01.60,0:22:03.98,Narration,Narrator,0000,0000,0000,,decided to ignore them both.
+
