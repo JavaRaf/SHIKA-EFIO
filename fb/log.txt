@@ -2818,3 +2818,13 @@
 [√] Frame: 2818, Episode 07 https://facebook.com/122138729174589299
 [√] Frame: 2819, Episode 07 https://facebook.com/122138729594589299
 [√] Frame: 2820, Episode 07 https://facebook.com/122138730074589299
+[√] Frame: 2821, Episode 07 https://facebook.com/122138738000589299
+[√] Frame: 2822, Episode 07 https://facebook.com/122138738396589299
+[√] Frame: 2823, Episode 07 https://facebook.com/122138738792589299
+[√] Frame: 2824, Episode 07 https://facebook.com/122138739212589299
+[√] Frame: 2825, Episode 07 https://facebook.com/122138739752589299
+[√] Frame: 2826, Episode 07 https://facebook.com/122138740250589299
+[√] Frame: 2827, Episode 07 https://facebook.com/122138740802589299
+[√] Frame: 2828, Episode 07 https://facebook.com/122138741222589299
+[√] Frame: 2829, Episode 07 https://facebook.com/122138741714589299
+[√] Frame: 2830, Episode 07 https://facebook.com/122138742074589299
