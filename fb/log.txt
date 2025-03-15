@@ -5648,3 +5648,13 @@
 [√] Frame: 2818, Episode 08 https://facebook.com/122141476082589299
 [√] Frame: 2819, Episode 08 https://facebook.com/122141476436589299
 [√] Frame: 2820, Episode 08 https://facebook.com/122141476916589299
+[√] Frame: 2821, Episode 08 https://facebook.com/122141485346589299
+[√] Frame: 2822, Episode 08 https://facebook.com/122141486216589299
+[√] Frame: 2823, Episode 08 https://facebook.com/122141486636589299
+[√] Frame: 2824, Episode 08 https://facebook.com/122141486984589299
+[√] Frame: 2825, Episode 08 https://facebook.com/122141487404589299
+[√] Frame: 2826, Episode 08 https://facebook.com/122141487866589299
+[√] Frame: 2827, Episode 08 https://facebook.com/122141488178589299
+[√] Frame: 2828, Episode 08 https://facebook.com/122141488538589299
+[√] Frame: 2829, Episode 08 https://facebook.com/122141489000589299
+[√] Frame: 2830, Episode 08 https://facebook.com/122141489372589299
